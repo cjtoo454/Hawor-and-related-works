@@ -1,0 +1,72 @@
+[
+  {
+    "sequence": "P0001_a68492d5",
+    "frames": 3714,
+    "mask_ready": true,
+    "slam_saved": 1,
+    "slam_expected": 4
+  },
+  {
+    "sequence": "P0001_9b6feab7",
+    "frames": 3776,
+    "mask_ready": true,
+    "slam_saved": 0,
+    "slam_expected": 4
+  },
+  {
+    "sequence": "P0014_8254f925",
+    "frames": 4102,
+    "mask_ready": false,
+    "slam_saved": 0,
+    "slam_expected": 5
+  },
+  {
+    "sequence": "P0011_76ea6d47",
+    "frames": 3874,
+    "mask_ready": false,
+    "slam_saved": 0,
+    "slam_expected": 4
+  },
+  {
+    "sequence": "P0014_84ea2dcc",
+    "frames": 4439,
+    "mask_ready": false,
+    "slam_saved": 0,
+    "slam_expected": 5
+  },
+  {
+    "sequence": "P0001_8d136980",
+    "frames": 3797,
+    "mask_ready": false,
+    "slam_saved": 0,
+    "slam_expected": 4
+  },
+  {
+    "sequence": "P0012_476bae57",
+    "frames": 3549,
+    "mask_ready": false,
+    "slam_saved": 0,
+    "slam_expected": 4
+  },
+  {
+    "sequence": "P0012_130a66e1",
+    "frames": 3665,
+    "mask_ready": false,
+    "slam_saved": 0,
+    "slam_expected": 4
+  },
+  {
+    "sequence": "P0014_24cb3bf0",
+    "frames": 4064,
+    "mask_ready": false,
+    "slam_saved": 0,
+    "slam_expected": 5
+  },
+  {
+    "sequence": "P0010_1c9fe708",
+    "frames": 3602,
+    "mask_ready": false,
+    "slam_saved": 0,
+    "slam_expected": 4
+  }
+]

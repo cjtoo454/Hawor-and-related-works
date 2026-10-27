@@ -1,0 +1,45 @@
+{
+  "protocol_revision": 4,
+  "review_passed": true,
+  "review": "Astra high independent review of frozen model/cache/trainer/runtime/controller; incremental defects fixed",
+  "reviewed_utc": "2026-10-21T18:55:49.214867+00:00",
+  "source_sha256": {
+    "train_feedback_v4.py": "8d72e7c05a16340b68f4689394c8ba73d00b9dbb7e374898626fec94991067b0",
+    "extend_training_cache_v4.py": "c7379a52a0d2ce16e7f182fece95063851618465671152c9fbf36f3c2cac5690",
+    "continue_v4_experiment.py": "b1f056c990ea2bc63b11b111a429111e7639954230bbd7eeb995c60b67fa899e",
+    "run_feedback_v4.py": "6608a499b3559c3f00ad0cd42faab7c371a3dc4f33a50c159d585fbb878db95c",
+    "eval_feedback_v4.py": "560ac40bdbf1c311325f698504c1e8ce66b1f5231f10952040a0a045950a6683",
+    "feedback_v4.py": "2a051e5a1e98b2e57da65414a7b81443576b51148726a28f0ba609f85af954a1",
+    "train_feedback_v2.py": "8b6d7fb1bb41143ba1862dd594f2c73b9675345d0f6dbb6dfb37a1733eebfa7c",
+    "train_feedback_v3.py": "fe6759d7dc500ce6810e858abb945e36d7c990baacc9d377ab8aac091036ff18",
+    "world_targets_v3.py": "853d1e1ccf0c593725dd8029e8f69aaadebac8afa9f1cbe2ea2c918bf6f68bdf",
+    "v2_cache.py": "f9e0fd6290826f5e7ff8c6766e3084c7eed60414b4bb7a32e7b3b379586fad47",
+    "runtime.py": "48d715de0e688dc6edb8a1eec5607ab85d25a008a62755923c716ecab2057fde",
+    "run_intra.py": "a530071ec69206c196aadd3b692615c1cd77f0d0565f38783085454891f9932e",
+    "eval_pipeline.py": "59a89bea8d389a8cca67db29e811577401d15b7c6e08b590adb99df0b5247f5b",
+    "test_feedback_v4.py": "17f49f20e3bbc6cb5d28e0f0ccea7578d537140389b9a286152821b55d11a7c1"
+  },
+  "data_sha256": {
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/feedback_v4_train/cache/training_extension_plan.json": "8f2b3dcb87598581b1cc54919eb67ce50ee4d172bc257358f657b258a573ef86",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/world_reference_audit_v2/camera_map_train_calibration_53seq.json": "090cb5e76bcce2e59d7bb5094e70cd89c8afb37024dd5429f1839187cae68ba4",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/calibration_events_v3/calibration_manifest.json": "f2cd910462518afcb1e56bba67bf122da79a9bc3111d3f2fc95976577fec5f44",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/feedback_v3_train/cache/manifest.json": "2053d56b9df65975a451b2084a2fb874fcb6cdd6484cb4f3b9e86499f1e88fce",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/feedback_v4_train/root_adapter_validation.json": "5d64eaa19e6d9f6f4cce6e87852db16d0cf269c105a881b1b805717914fc46b8",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/feedback_v4_train/validation_100frame.json": "d9537961102e972879078221ddc90ad37e33d7c35a04c9135ad8d026bae969a0",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/feedback_v4_train/validation/loader_roundtrip.json": "4355aedebcaca851913b562cdd3de95a477145263f26aadfdfc43056d68f3cf3",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/records/v4_experiment_plan.json": "60f8e35d5c5ef5988e982acc882f128c740c956e953f0333d68145b8808a136a"
+  },
+  "evidence": {
+    "formal_environment_model_cpu_tests": 7,
+    "real_100frame_backward": "59valid+41invalid GT, nonidentity camera, finite gradient, peak8.471GB",
+    "loader_roundtrip": "nonzero visual weights, exact equal training/runtime output",
+    "driver_singleton": "duplicate rejected before shared status mutation"
+  },
+  "pending": [
+    "complete and validate new feature cache",
+    "400 finite visual-only training steps",
+    "calibration qualification",
+    "one frozen formal test if qualified"
+  ],
+  "success_claimed": false
+}

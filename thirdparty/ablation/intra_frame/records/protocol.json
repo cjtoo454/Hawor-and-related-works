@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-20T14:50:26.127080+00:00",
+  "variant": "+ Intra-frame Feedback",
+  "baseline_result": "/home/user/HaWoR/thirdparty/ablation/twm_only/runs/restore_full_evaluation_20261020/table_row.json",
+  "base_twm_sha256": "26078e9b5d587f38130d51316dad90b598d4a426dbc312f8db2360eb0d9a0ab2",
+  "base_hawor_sha256": "4d1cc43853c190d6f2c10d9b6295c73109f0faf9ef41ac817a2b31d94b4823f2",
+  "base_models_frozen": true,
+  "trainable_component": "HandLoopVisual only",
+  "rounds": 2,
+  "reobserve": true,
+  "history_commit": "raw visual state only",
+  "corrected_state_feedback": false,
+  "protocol": "/home/user/HaWoR/diagnostics/pinch_hawor_vs_ema_10videos_20261018_final/protocol_frozen.json",
+  "protocol_sha256": "f62cba1337a0af9acf2e07ab878eaa6e1356539e522e61d7556b724d02e482fd",
+  "training_split": "/home/user/HaWoR/datasets/hot3d_train100_export/training_split.json",
+  "test_sequences": [
+    "P0001_a68492d5",
+    "P0001_9b6feab7",
+    "P0014_8254f925",
+    "P0011_76ea6d47",
+    "P0014_84ea2dcc",
+    "P0001_8d136980",
+    "P0012_476bae57",
+    "P0012_130a66e1",
+    "P0014_24cb3bf0",
+    "P0010_1c9fe708"
+  ],
+  "test_inputs": "Reuse restored RGB, same GT-projected boxes, same existing SLAM; verify raw states and evaluated frame IDs against row 1",
+  "selection": "Calibration only; never tune thresholds or select checkpoint on test metrics"
+}

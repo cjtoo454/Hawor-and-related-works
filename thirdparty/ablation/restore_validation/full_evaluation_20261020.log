@@ -1,0 +1,167 @@
+{
+  "frozen_test_videos": [
+    "P0001_a68492d5",
+    "P0001_9b6feab7",
+    "P0014_8254f925",
+    "P0011_76ea6d47",
+    "P0014_84ea2dcc",
+    "P0001_8d136980",
+    "P0012_476bae57",
+    "P0012_130a66e1",
+    "P0014_24cb3bf0",
+    "P0010_1c9fe708"
+  ],
+  "selected_videos": [
+    "P0001_a68492d5",
+    "P0001_9b6feab7",
+    "P0014_8254f925",
+    "P0011_76ea6d47",
+    "P0014_84ea2dcc",
+    "P0001_8d136980",
+    "P0012_476bae57",
+    "P0012_130a66e1",
+    "P0014_24cb3bf0",
+    "P0010_1c9fe708"
+  ],
+  "frame_count_check_scope": "all frozen videos",
+  "frozen_test_set_matches": true,
+  "frame_counts": {
+    "P0001_a68492d5": 3714,
+    "P0001_9b6feab7": 3776,
+    "P0014_8254f925": 4102,
+    "P0011_76ea6d47": 3874,
+    "P0014_84ea2dcc": 4439,
+    "P0001_8d136980": 3797,
+    "P0012_476bae57": 3549,
+    "P0012_130a66e1": 3665,
+    "P0014_24cb3bf0": 4064,
+    "P0010_1c9fe708": 3602
+  },
+  "archived_evaluation_frame_counts": {
+    "P0001_a68492d5": {
+      "exported_frames": 3714,
+      "details_prediction_frames": 3714,
+      "details_gt_frames": 3714,
+      "details_evaluated_frames": 3223,
+      "summary_total_frames": 3714
+    },
+    "P0001_9b6feab7": {
+      "exported_frames": 3776,
+      "details_prediction_frames": 3776,
+      "details_gt_frames": 3776,
+      "details_evaluated_frames": 2619,
+      "summary_total_frames": 3776
+    },
+    "P0014_8254f925": {
+      "exported_frames": 4102,
+      "details_prediction_frames": 4102,
+      "details_gt_frames": 4102,
+      "details_evaluated_frames": 3810,
+      "summary_total_frames": 4102
+    },
+    "P0011_76ea6d47": {
+      "exported_frames": 3874,
+      "details_prediction_frames": 3874,
+      "details_gt_frames": 3874,
+      "details_evaluated_frames": 3648,
+      "summary_total_frames": 3874
+    },
+    "P0014_84ea2dcc": {
+      "exported_frames": 4439,
+      "details_prediction_frames": 4439,
+      "details_gt_frames": 4439,
+      "details_evaluated_frames": 4413,
+      "summary_total_frames": 4439
+    },
+    "P0001_8d136980": {
+      "exported_frames": 3797,
+      "details_prediction_frames": 3797,
+      "details_gt_frames": 3797,
+      "details_evaluated_frames": 3394,
+      "summary_total_frames": 3797
+    },
+    "P0012_476bae57": {
+      "exported_frames": 3549,
+      "details_prediction_frames": 3549,
+      "details_gt_frames": 3549,
+      "details_evaluated_frames": 2845,
+      "summary_total_frames": 3549
+    },
+    "P0012_130a66e1": {
+      "exported_frames": 3665,
+      "details_prediction_frames": 3665,
+      "details_gt_frames": 3665,
+      "details_evaluated_frames": 3468,
+      "summary_total_frames": 3665
+    },
+    "P0014_24cb3bf0": {
+      "exported_frames": 4064,
+      "details_prediction_frames": 4064,
+      "details_gt_frames": 4064,
+      "details_evaluated_frames": 3607,
+      "summary_total_frames": 4064
+    },
+    "P0010_1c9fe708": {
+      "exported_frames": 3602,
+      "details_prediction_frames": 3602,
+      "details_gt_frames": 3602,
+      "details_evaluated_frames": 3477,
+      "summary_total_frames": 3602
+    }
+  },
+  "environment_python": "/home/user/HaWoR/.env/hawor/bin/python3.10",
+  "requested_cuda_visible_devices": "1",
+  "inference_gpus": [
+    "1",
+    "2",
+    "3"
+  ],
+  "omp_threads": "2",
+  "mkl_threads": "2",
+  "single_frame_import_check": {
+    "status": "ok",
+    "imports": [
+      "cv2",
+      "joblib",
+      "torch",
+      "PIL",
+      "pycocotools.mask",
+      "lib.datasets.detect_track_video_hot3d",
+      "dual_loop",
+      "run_handloop"
+    ],
+    "torch_cuda_available": true,
+    "visible_cuda_devices": 1,
+    "decoded_image": "/home/user/HaWoR/datasets/hot3d_valset_export/P0001_a68492d5/extracted_images/0000.jpg",
+    "image_shape_hwc": [
+      1408,
+      1408,
+      3
+    ],
+    "annotation_frames": 3714
+  }
+}
+[twm_only_wmpjpe_onset] starting; output: /home/user/HaWoR/thirdparty/ablation/restore_validation/runs/full_evaluation_20261020/run.log
+{
+  "status": "complete",
+  "videos": [
+    "P0001_a68492d5",
+    "P0001_9b6feab7",
+    "P0014_8254f925",
+    "P0011_76ea6d47",
+    "P0014_84ea2dcc",
+    "P0001_8d136980",
+    "P0012_476bae57",
+    "P0012_130a66e1",
+    "P0014_24cb3bf0",
+    "P0010_1c9fe708"
+  ],
+  "completed_stages": [
+    "inference",
+    "w_mpjpe",
+    "onset"
+  ],
+  "table_row_generated": true,
+  "run_dir": "/home/user/HaWoR/thirdparty/ablation/twm_only/runs/restore_full_evaluation_20261020",
+  "frontend_scope_matches_frozen_pinch_protocol": true
+}

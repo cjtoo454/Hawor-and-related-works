@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-21T09:35:30.533966+00:00",
+  "objective": "Investigate feedback degradation and improve both metrics through actual model changes",
+  "preserved_original_evaluation": "runs/full_eval_v1",
+  "frozen_test_policy": {
+    "sequences": 10,
+    "evaluated_frames": 34504,
+    "prediction_threshold": 0.275,
+    "reference_threshold": 0.2,
+    "onset_tolerance_sec": 0.2,
+    "do_not_select_checkpoints_or_parameters_on_test": true,
+    "prior_test_already_observed": true
+  },
+  "diagnostics": [
+    {
+      "hypothesis": "repeated TWM residual accumulation",
+      "controls": [
+        "raw",
+        "zero_visual_round1",
+        "zero_visual_round2",
+        "trained_visual_round1",
+        "trained_visual_round2"
+      ]
+    },
+    {
+      "hypothesis": "single-frame objective misses trajectory/event dynamics",
+      "controls": [
+        "joint_error",
+        "wrist_error",
+        "trajectory_alignment_error",
+        "pinch_metrics_when_full_calibration_available"
+      ]
+    },
+    {
+      "hypothesis": "sparse checkpoint selection and input distribution shift",
+      "controls": [
+        "original_20_calibration_frames",
+        "predetermined_uniform_160_calibration_frames",
+        "training_vs_inference_masks_and_crops"
+      ]
+    }
+  ],
+  "selection_policy": "Use participant-disjoint train/calibration evidence; freeze chosen fix before final test; report failure if goals not met, preserve all prior results",
+  "original_visual_sha256": "e0f3a4d1bd4d884cf2fc918721baf149876bb5b58fe052fb758792352a0c0bce"
+}

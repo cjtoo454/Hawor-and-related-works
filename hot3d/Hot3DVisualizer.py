@@ -142,8 +142,8 @@ class Hot3DVisualizer:
                     self._device_data_provider.get_device_calibration(),
                 )
 
-            # Point cloud (downsampled for visualization)
-            point_cloud = self._device_data_provider.get_point_cloud()
+            # Point cloud is only needed by the interactive visualization.
+            point_cloud = None if disable_vis else self._device_data_provider.get_point_cloud()
             if point_cloud:
                 # Filter out low confidence points
                 threshold_invdep = 5e-4
@@ -267,7 +267,7 @@ class Hot3DVisualizer:
             "world/hands",  # /{handedness_label}/... will be added as necessary
             self._hand_data_provider,
             hand_poses_with_dt,
-            show_hand_mesh=True,
+            show_hand_mesh=not disable_vis,
             show_hand_vertices=False,
             show_hand_landmarks=True,
             vertices_inputs=vertices_input,
@@ -471,16 +471,19 @@ class Hot3DVisualizer:
 
             # Skeleton/Joints landmark representation
             if show_hand_landmarks:
-                hand_landmarks, out_rot, out_trans, out_pose, out_betas = hand_data_provider.get_hand_landmarks(hand_pose_data)
-                # convert landmarks to connected lines for display
-                # (i.e retrieve points along the HAND LANDMARK_CONNECTIVITY as a list)
-                points = [
-                    connections
-                    for connectivity in LANDMARK_CONNECTIVITY
-                    for connections in [
-                        [hand_landmarks[it].numpy().tolist() for it in connectivity]
+                if disable_vis and hasattr(hand_data_provider, "get_hand_parameters"):
+                    out_rot, out_trans, out_pose, out_betas = hand_data_provider.get_hand_parameters(hand_pose_data)
+                else:
+                    hand_landmarks, out_rot, out_trans, out_pose, out_betas = hand_data_provider.get_hand_landmarks(hand_pose_data)
+                    # convert landmarks to connected lines for display
+                    # (i.e retrieve points along the HAND LANDMARK_CONNECTIVITY as a list)
+                    points = [
+                        connections
+                        for connectivity in LANDMARK_CONNECTIVITY
+                        for connections in [
+                            [hand_landmarks[it].numpy().tolist() for it in connectivity]
+                        ]
                     ]
-                ]
                 if handedness_label == 'right':
                     rot_r, trans_r, pose_r, betas_r = out_rot, out_trans, out_pose, out_betas
                 elif handedness_label == 'left':

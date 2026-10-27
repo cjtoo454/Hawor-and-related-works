@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "videos": 10,
+  "reference_events": 91,
+  "short_reference_events": 41,
+  "tests": "6 event tests + 1 window test including continuous, cross-gap, unrelated-later-gap cases",
+  "hashes_verified": true,
+  "window_boundary_fix_changes_observed_results": false
+}

@@ -1,0 +1,8 @@
+{
+  "file": "experiment-design.md",
+  "old_line": "> | TWM only               | —         | —           |",
+  "new_line": "> | TWM only               | 37.38 mm | 69.47 ms |",
+  "before_sha256": "d557487c09fb4d2a8db137192b79094be2965bb8496064cc930247d126cfefe4",
+  "after_sha256": "c07193c40386727b2a77f3886e8bf375c7165819d635b92f1d14b235ed97923d",
+  "source_result": "thirdparty/ablation/twm_only/runs/restore_full_evaluation_20261020/table_row.json"
+}

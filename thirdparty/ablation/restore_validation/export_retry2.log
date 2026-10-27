@@ -1,0 +1,18 @@
+['P0001_a68492d5', 'P0001_9b6feab7', 'P0014_8254f925', 'P0011_76ea6d47', 'P0014_84ea2dcc', 'P0001_8d136980', 'P0012_476bae57', 'P0012_130a66e1', 'P0014_24cb3bf0', 'P0010_1c9fe708']
+/home/user/HaWoR/hot3d/dataset/P0001_a68492d5
+Traceback (most recent call last):
+  File "/home/user/HaWoR/hot3d/export_gt.py", line 60, in <module>
+    export_gt(
+  File "/home/user/HaWoR/hot3d/viewer_export_gt.py", line 313, in export_gt
+    execute_rerun(
+  File "/home/user/HaWoR/hot3d/viewer_export_gt.py", line 116, in execute_rerun
+    mano_hand_model = loadManoHandModel(mano_model_folder)
+  File "/home/user/HaWoR/hot3d/data_loaders/mano_layer.py", line 301, in loadManoHandModel
+    return MANOHandModel(mano_model_files_dir)
+  File "/home/user/HaWoR/hot3d/data_loaders/mano_layer.py", line 81, in __init__
+    self.mano_layer_left = smplx.create(
+  File "/home/user/HaWoR/.env/hawor/lib/python3.10/site-packages/smplx/body_models.py", line 2406, in create
+    return MANO(model_path, **kwargs)
+  File "/home/user/HaWoR/.env/hawor/lib/python3.10/site-packages/smplx/body_models.py", line 1562, in __init__
+    model_data = pickle.load(mano_file, encoding='latin1')
+EOFError: Ran out of input

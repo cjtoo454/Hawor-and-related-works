@@ -1,0 +1,130 @@
+{
+  "method": "HaWoR",
+  "reference_events": [
+    {
+      "start": 435,
+      "stop": 451,
+      "onset_sec": 14.53328708,
+      "offset_sec": 15.099941225
+    },
+    {
+      "start": 1072,
+      "stop": 1115,
+      "onset_sec": 35.799941533,
+      "offset_sec": 37.266615353
+    },
+    {
+      "start": 2080,
+      "stop": 2084,
+      "onset_sec": 69.433293783,
+      "offset_sec": 69.599964312
+    },
+    {
+      "start": 2090,
+      "stop": 2102,
+      "onset_sec": 69.766615573,
+      "offset_sec": 70.199958852
+    },
+    {
+      "start": 2123,
+      "stop": 2155,
+      "onset_sec": 70.866618703,
+      "offset_sec": 71.966637264
+    },
+    {
+      "start": 3373,
+      "stop": 3377,
+      "onset_sec": 112.533279151,
+      "offset_sec": 112.699952797
+    }
+  ],
+  "predicted_events": [
+    {
+      "start": 1068,
+      "stop": 1115,
+      "onset_sec": 35.66659826,
+      "offset_sec": 37.266615353
+    },
+    {
+      "start": 2082,
+      "stop": 2159,
+      "onset_sec": 69.499989718,
+      "offset_sec": 72.099950975
+    },
+    {
+      "start": 2253,
+      "stop": 2256,
+      "onset_sec": 75.19993034,
+      "offset_sec": 75.333274327
+    },
+    {
+      "start": 2327,
+      "stop": 2338,
+      "onset_sec": 77.666612104,
+      "offset_sec": 78.066620416
+    },
+    {
+      "start": 2361,
+      "stop": 2386,
+      "onset_sec": 78.800776334,
+      "offset_sec": 79.666640122
+    },
+    {
+      "start": 2446,
+      "stop": 2453,
+      "onset_sec": 81.633253561,
+      "offset_sec": 81.900007327
+    },
+    {
+      "start": 2457,
+      "stop": 2459,
+      "onset_sec": 81.999998134,
+      "offset_sec": 82.099994872
+    },
+    {
+      "start": 3370,
+      "stop": 3377,
+      "onset_sec": 112.433263139,
+      "offset_sec": 112.699952797
+    }
+  ],
+  "tp": 3,
+  "fp": 5,
+  "fn": 3,
+  "precision": 0.375,
+  "recall": 0.5,
+  "onset_mae_ms": 100.01840666666577,
+  "onset_bias_ms": -55.55445000000011,
+  "short_reference_events": 2,
+  "short_matched_events": 2,
+  "short_event_recall": 1.0,
+  "matches": [
+    {
+      "reference_index": 1,
+      "prediction_index": 0,
+      "onset_error_ms": -133.34327300000126
+    },
+    {
+      "reference_index": 2,
+      "prediction_index": 1,
+      "onset_error_ms": 66.69593499999849
+    },
+    {
+      "reference_index": 5,
+      "prediction_index": 7,
+      "onset_error_ms": -100.01601199999754
+    }
+  ],
+  "unmatched_reference_indices": [
+    0,
+    3,
+    4
+  ],
+  "unmatched_prediction_indices": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+}

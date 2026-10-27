@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/user/HaWoR/thirdparty/ablation/intra_frame/prepare_training.py", line 400, in <module>
+    main()
+  File "/home/user/HaWoR/thirdparty/ablation/intra_frame/prepare_training.py", line 396, in main
+    _check_only(args)
+  File "/home/user/HaWoR/thirdparty/ablation/intra_frame/prepare_training.py", line 365, in _check_only
+    groups, protocol = load_sequences(
+  File "/home/user/HaWoR/thirdparty/ablation/intra_frame/prepare_training.py", line 251, in load_sequences
+    loaded[split].append(load_sequence(
+  File "/home/user/HaWoR/thirdparty/ablation/intra_frame/prepare_training.py", line 210, in load_sequence
+    raise ValueError(f"{sequence}: crop boxes and focal lengths must be finite after causal fill")
+ValueError: P0002_59a84a3a: crop boxes and focal lengths must be finite after causal fill

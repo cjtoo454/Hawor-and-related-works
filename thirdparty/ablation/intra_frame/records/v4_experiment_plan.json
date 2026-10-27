@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-21T18:43:57.955906+00:00",
+  "objective": "both frozen-test W-MPJPE and Onset MAE strictly better than TWM only; improvement is an experimental objective, not an assumed result",
+  "scope": "intra-frame ablation only; raw HaWoR history, frozen HaWoR/TWM, exactly two reobservations",
+  "prior_formal_test": {
+    "w_mpjpe_mm": 40.67505645751953,
+    "onset_mae_ms": 69.10173753658559,
+    "event_f1": 0.3014705882352941,
+    "source": "runs/full_eval_v3_requested/table_row.json"
+  },
+  "confirmed_issues": [
+    "second-round observation state differs from state receiving visual increment",
+    "training alignment resets within at most16 frames but target W uses up to100",
+    "soft contact BCE alone has optimum predicted normalized distance equal GT plus0.075"
+  ],
+  "hypotheses_pending_component_probe": [
+    "global pose versus finger corrections contribution",
+    "visual output scale .1/.5 versus small radial bounds encourages saturation; state-to-raw statistics alone do not prove pure visual saturation"
+  ],
+  "repairs": [
+    "same-state candidate with centered second-round TWM innovation to remove repeated prior drift",
+    "physical head output scales matched to recorded bounds and invalid-projection rejection",
+    "continuous100-frame spatial loss and additional64-frame onset clips from train split",
+    "baseline-relative non-degradation spatial loss and local onset bracket margin supervision; no shifted whole-frame contact BCE or centered-distribution NLL"
+  ],
+  "training": {
+    "seed": 7,
+    "steps": 400,
+    "learning_rate": 3e-05,
+    "calibration_every": 100,
+    "translation_bound_m": 0.001,
+    "root_rotation_bound_rad": 0.01,
+    "finger_rotation_bound_rad": 0.05
+  },
+  "selection": "strictly lower calibration W and onset, event F1/recall no worse than frozen baseline; baseline>=10 matched reference events; choose qualified lowest W; no automatic test of unqualified fallback",
+  "formal_test": "same10 videos,34504 identical frames,predictionthreshold.275,reference.2,min3frames; at most one calibration-selected new checkpoint; preserve all previous measurements",
+  "interpretation": "Previously observed test set is a development benchmark; a future independent held-out replication is necessary for unbiased generalization evidence",
+  "success_claimed": false
+}

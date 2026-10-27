@@ -1,0 +1,92 @@
+{
+  "method": "HaWoR + Temporal Filter",
+  "reference_events": [
+    {
+      "start": 1791,
+      "stop": 1798,
+      "onset_sec": 59.733281413,
+      "offset_sec": 59.999999872
+    }
+  ],
+  "predicted_events": [
+    {
+      "start": 920,
+      "stop": 933,
+      "onset_sec": 30.699957471,
+      "offset_sec": 31.166610608
+    },
+    {
+      "start": 2663,
+      "stop": 2667,
+      "onset_sec": 88.866688682,
+      "offset_sec": 89.033336065
+    },
+    {
+      "start": 2675,
+      "stop": 2681,
+      "onset_sec": 89.266626509,
+      "offset_sec": 89.499953216
+    },
+    {
+      "start": 2929,
+      "stop": 2932,
+      "onset_sec": 97.733311928,
+      "offset_sec": 97.866687319
+    },
+    {
+      "start": 3056,
+      "stop": 3075,
+      "onset_sec": 101.966669235,
+      "offset_sec": 102.633262321
+    },
+    {
+      "start": 3194,
+      "stop": 3199,
+      "onset_sec": 106.566623278,
+      "offset_sec": 106.767457526
+    },
+    {
+      "start": 3209,
+      "stop": 3213,
+      "onset_sec": 107.066672836,
+      "offset_sec": 107.233303154
+    },
+    {
+      "start": 3307,
+      "stop": 3311,
+      "onset_sec": 110.333281699,
+      "offset_sec": 110.499953969
+    },
+    {
+      "start": 3319,
+      "stop": 3332,
+      "onset_sec": 110.733280036,
+      "offset_sec": 111.199967051
+    }
+  ],
+  "tp": 0,
+  "fp": 9,
+  "fn": 1,
+  "precision": 0.0,
+  "recall": 0.0,
+  "onset_mae_ms": null,
+  "onset_bias_ms": null,
+  "short_reference_events": 1,
+  "short_matched_events": 0,
+  "short_event_recall": 0.0,
+  "matches": [],
+  "unmatched_reference_indices": [
+    0
+  ],
+  "unmatched_prediction_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ]
+}

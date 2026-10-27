@@ -13,6 +13,7 @@
 # limitations under the License.
 
 import argparse
+from ctypes.util import find_library
 import os
 import shutil
 import subprocess
@@ -89,8 +90,10 @@ def execute_rerun(
     timestamps_slice: Type[slice],
     fail_on_missing_data: bool,
     use_slam_hamer: bool,
+    export_gt_folder: Optional[str] = None,
 ):
-    export_gt_folder = sequence_folder.replace('dataset', 'hot3d_dataset_export')
+    if export_gt_folder is None:
+        export_gt_folder = sequence_folder.replace('dataset', 'hot3d_dataset_export')
     if not os.path.exists(export_gt_folder):
         os.makedirs(export_gt_folder)
     # if os.path.exists(os.path.join(export_gt_folder, export_gt_folder.split('/')[-1] + '.mp4')):
@@ -138,7 +141,14 @@ def execute_rerun(
     rr_visualizer = Hot3DVisualizer(data_provider)
 
     # Define which image stream will be shown
-    image_stream_ids = data_provider.device_data_provider.get_image_stream_ids()
+    # The exported dataset only consumes the Aria RGB stream (214-1).  Loading
+    # and undistorting the two SLAM grayscale streams here produces no output
+    # but roughly triples the per-frame image work.
+    image_stream_ids = [
+        stream_id
+        for stream_id in data_provider.device_data_provider.get_image_stream_ids()
+        if str(stream_id) == "214-1"
+    ]
 
     #
     # Log static assets (aka Timeless assets)
@@ -204,22 +214,38 @@ def create_video_from_images_ffmpeg(image_folder, output_video, frame_rate=30):
     if not os.path.isdir(image_folder):
         raise ValueError(f"Image folder {image_folder} does not exist.")
     
-    # 构建 FFmpeg 命令
-    ffmpeg_command = [
-        'ffmpeg',
-        '-framerate', str(frame_rate),
-        '-i', os.path.join(image_folder, '%04d.jpg'),  # 假设图片文件名为 0001.png, 0002.png, 0003.png, ...
-        '-c:v', 'h264_nvenc',
-        '-preset', 'fast',
-        '-pix_fmt', 'yuv420p',
-        output_video
-    ]
-    
-    # 打印 FFmpeg 命令（可选）
-    print('Running FFmpeg command:', ' '.join(ffmpeg_command))
-    
-    # 调用 FFmpeg 命令
-    subprocess.run(ffmpeg_command, check=True)
+    input_pattern = os.path.join(image_folder, '%04d.jpg')
+    ffmpeg_binary = shutil.which('ffmpeg')
+    if ffmpeg_binary is None:
+        environment_ffmpeg = os.path.join(sys.prefix, 'bin', 'ffmpeg')
+        if os.path.isfile(environment_ffmpeg):
+            ffmpeg_binary = environment_ffmpeg
+        else:
+            raise FileNotFoundError('ffmpeg was not found in PATH or the active Python environment')
+    encoders = []
+    if find_library('nvidia-encode') is not None:
+        encoders.append(('h264_nvenc', 'fast'))
+    encoders.append(('libx264', 'ultrafast'))
+    last_error = None
+    for encoder, preset in encoders:
+        ffmpeg_command = [
+            ffmpeg_binary,
+            '-y',
+            '-framerate', str(frame_rate),
+            '-i', input_pattern,
+            '-c:v', encoder,
+            '-preset', preset,
+            '-pix_fmt', 'yuv420p',
+            output_video,
+        ]
+        print('Running FFmpeg command:', ' '.join(ffmpeg_command))
+        result = subprocess.run(ffmpeg_command, check=False)
+        if result.returncode == 0:
+            return
+        last_error = result.returncode
+        print(f'{encoder} failed with exit code {result.returncode}; trying the next encoder.')
+
+    raise subprocess.CalledProcessError(last_error, ffmpeg_command)
 
 def create_video_from_list(image_list, output_path, fps=30):
     # Check if the list is not empty
@@ -260,14 +286,21 @@ def main():
     except Exception as error:
         print(f"An exception occurred: {error}")
 
-def export_gt(sequence_folder, start_frame=20, debug=False):
+def export_gt(
+    sequence_folder,
+    start_frame=20,
+    debug=False,
+    output_folder=None,
+    object_library_folder=None,
+    mano_model_folder=None,
+):
     print(sequence_folder)
     # args = parse_args()
     # print(f"args provided: {args}")
     from easydict import EasyDict as edict
     args = edict()
-    args.object_library_folder = "dataset/assets"
-    args.mano_model_folder = "mano_v1_2/models/"
+    args.object_library_folder = object_library_folder or "dataset/assets"
+    args.mano_model_folder = mano_model_folder or "mano_v1_2/models/"
     args.rrd_output_path = None
     args.jpeg_quality = 75
     args.use_slam_hamer = False
@@ -286,6 +319,7 @@ def export_gt(sequence_folder, start_frame=20, debug=False):
         timestamps_slice=slice(start_frame, len, None),
         fail_on_missing_data=False,
         use_slam_hamer=args.use_slam_hamer,
+        export_gt_folder=output_folder,
     )
 
 

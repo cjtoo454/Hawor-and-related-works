@@ -1,0 +1,39 @@
+{
+  "before_sha256": "c07193c40386727b2a77f3886e8bf375c7165819d635b92f1d14b235ed97923d",
+  "after_sha256": "a9cb3f87600921e5a41838384a01fadbd0db4668098537dae84af2940d9b3f35",
+  "old_row": "> | + Intra-frame Feedback | \u2014         | \u2014           |",
+  "new_row": "> | + Intra-frame Feedback | 51.46 mm | 79.58 ms |",
+  "source": "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/full_eval_v1/table_row.json",
+  "metrics": {
+    "method": "TWM + Intra-frame Feedback; raw HaWoR history",
+    "num_videos": 10,
+    "evaluated_right_hand_frames": 34504,
+    "visual_checkpoint_sha256": "e0f3a4d1bd4d884cf2fc918721baf149876bb5b58fe052fb758792352a0c0bce",
+    "visual_global_step": 3250,
+    "twm_checkpoint_sha256": "26078e9b5d587f38130d51316dad90b598d4a426dbc312f8db2360eb0d9a0ab2",
+    "hawor_checkpoint_sha256": "4d1cc43853c190d6f2c10d9b6295c73109f0faf9ef41ac817a2b31d94b4823f2",
+    "oracle_assisted": true,
+    "w_mpjpe_mm": 51.46100997924805,
+    "wa_mpjpe_mm": 14.016546249389648,
+    "pa_mpjpe_mm": 5.491918087005615,
+    "accel_m_s2": 5.283516883850098,
+    "rte_percent": 1.1786925792694092,
+    "onset_mae_ms": 79.5832831612899,
+    "event_f1": 0.20064724919093851,
+    "reference_events": 91,
+    "prediction_threshold": 0.275,
+    "reference_type": "GT-geometry-derived pinch proxy; not human annotation or software ground truth",
+    "common_frame_counts": {
+      "P0001_a68492d5": 3223,
+      "P0001_9b6feab7": 2619,
+      "P0014_8254f925": 3810,
+      "P0011_76ea6d47": 3648,
+      "P0014_84ea2dcc": 4413,
+      "P0001_8d136980": 3394,
+      "P0012_476bae57": 2845,
+      "P0012_130a66e1": 3468,
+      "P0014_24cb3bf0": 3607,
+      "P0010_1c9fe708": 3477
+    }
+  }
+}

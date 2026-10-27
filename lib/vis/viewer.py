@@ -1,7 +1,21 @@
+import ctypes
+import glob
+import json
 import os
 import os.path as op
 import re
+import sys
+import tempfile
 from abc import abstractmethod
+
+# scikit-video detects ffmpeg/ffprobe when it is imported by AITViewer. Make
+# the executables from the active Python environment visible even when Python
+# itself was launched through an absolute path rather than `conda activate`.
+environment_bin = os.path.join(sys.prefix, "bin")
+if os.path.exists(os.path.join(environment_bin, "ffmpeg")):
+    path_entries = os.environ.get("PATH", "").split(os.pathsep)
+    if environment_bin not in path_entries:
+        os.environ["PATH"] = os.pathsep.join([environment_bin, *path_entries])
 
 import matplotlib.cm as cm
 import numpy as np
@@ -23,6 +37,78 @@ SMPLX_ID = 150
 LEFT_ID = 200
 RIGHT_ID = 250
 SEGM_IDS = {"object": OBJ_ID, "smplx": SMPLX_ID, "left": LEFT_ID, "right": RIGHT_ID}
+
+
+def _configure_headless_egl():
+    """Configure ModernGL's headless window to use EGL instead of X11."""
+    from moderngl_window.context.headless.window import Window as HeadlessWindow
+
+    if getattr(HeadlessWindow, "_hawor_egl_configured", False):
+        return
+
+    # GLVND needs a vendor manifest. Some container images expose the NVIDIA
+    # driver under a mounted driver root without installing that manifest.
+    if "__EGL_VENDOR_LIBRARY_FILENAMES" not in os.environ:
+        patterns = (
+            "/usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.*",
+            "/usr/lib64/libEGL_nvidia.so.*",
+            "/workspace/GO/isaac-stack/nvidia-*/root/usr/lib/x86_64-linux-gnu/libEGL_nvidia.so.*",
+        )
+        candidates = []
+        for pattern in patterns:
+            candidates.extend(glob.glob(pattern))
+
+        if candidates:
+            egl_vendor = os.path.realpath(sorted(candidates)[-1])
+            driver_dir = os.path.dirname(egl_vendor)
+            version = os.path.basename(egl_vendor).split("libEGL_nvidia.so.", 1)[-1]
+
+            # Preloading avoids requiring a process-wide LD_LIBRARY_PATH when
+            # the driver libraries live in a mounted container driver root.
+            for library in (
+                f"libnvidia-glsi.so.{version}",
+                f"libnvidia-eglcore.so.{version}",
+                os.path.basename(egl_vendor),
+            ):
+                library_path = os.path.join(driver_dir, library)
+                if os.path.exists(library_path):
+                    ctypes.CDLL(library_path, mode=ctypes.RTLD_GLOBAL)
+
+            manifest_path = os.path.join(
+                tempfile.gettempdir(), f"hawor_nvidia_egl_{os.getuid()}.json"
+            )
+            with open(manifest_path, "w", encoding="utf-8") as manifest:
+                json.dump(
+                    {
+                        "file_format_version": "1.0.0",
+                        "ICD": {"library_path": egl_vendor},
+                    },
+                    manifest,
+                )
+            os.environ["__EGL_VENDOR_LIBRARY_FILENAMES"] = manifest_path
+
+    conda_lib = os.path.join(sys.prefix, "lib")
+    egl_loader = os.path.join(conda_lib, "libEGL.so.1")
+    gl_loader = os.path.join(conda_lib, "libGL.so.1")
+    if os.path.exists(egl_loader):
+        os.environ.setdefault("GLCONTEXT_LINUX_LIBEGL", egl_loader)
+    if os.path.exists(gl_loader):
+        os.environ.setdefault("GLCONTEXT_LINUX_LIBGL", gl_loader)
+
+    # AITViewer 1.13 creates ModernGL's standalone context without forwarding
+    # a backend. On Linux that defaults to X11, even for HeadlessRenderer.
+    def init_mgl_context_egl(window):
+        import moderngl
+
+        window._ctx = moderngl.create_standalone_context(
+            require=window.gl_version_code,
+            backend="egl",
+        )
+        window._create_fbo()
+        window.use()
+
+    HeadlessWindow.init_mgl_context = init_mgl_context_egl
+    HeadlessWindow._hawor_egl_configured = True
 
 cmap = cm.get_cmap("plasma")
 materials = {
@@ -87,7 +173,8 @@ class ARCTICViewer:
         size=(2024, 2024),
     ):
         if not interactive:
-            v = HeadlessRenderer()
+            _configure_headless_egl()
+            v = HeadlessRenderer(size=size)
         else:
             v = Viewer(size=size)
 

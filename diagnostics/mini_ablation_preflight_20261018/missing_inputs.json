@@ -1,0 +1,23 @@
+{
+  "status": "blocked_missing_inputs",
+  "inference_started": false,
+  "plan": "/home/user/HaWoR/diagnostics/mini_ablation_plan.json",
+  "missing_inputs": [
+    {
+      "path": "/home/user/HaWoR/datasets/hot3d_valset_export",
+      "reason": "validation video root is missing"
+    },
+    {
+      "path": "/home/user/HaWoR/datasets/hot3d_valset_export/P0001_9b6feab7",
+      "reason": "planned validation sequence is missing"
+    },
+    {
+      "path": "/home/user/HaWoR/datasets/hot3d_valset_export/P0011_76ea6d47",
+      "reason": "planned validation sequence is missing"
+    },
+    {
+      "path": "/home/user/HaWoR/datasets/hot3d_valset_export/P0014_84ea2dcc",
+      "reason": "planned validation sequence is missing"
+    }
+  ]
+}

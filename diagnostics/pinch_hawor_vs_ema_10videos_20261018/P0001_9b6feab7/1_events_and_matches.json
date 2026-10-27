@@ -1,0 +1,328 @@
+{
+  "method": "HaWoR + Temporal Filter",
+  "reference_events": [
+    {
+      "start": 79,
+      "stop": 99,
+      "onset_sec": 2.633262194,
+      "offset_sec": 3.333293809
+    },
+    {
+      "start": 102,
+      "stop": 123,
+      "onset_sec": 3.399952244,
+      "offset_sec": 4.13325653
+    },
+    {
+      "start": 154,
+      "stop": 203,
+      "onset_sec": 5.13329213,
+      "offset_sec": 6.80077099
+    },
+    {
+      "start": 338,
+      "stop": 348,
+      "onset_sec": 11.266620616,
+      "offset_sec": 11.633259058
+    },
+    {
+      "start": 454,
+      "stop": 474,
+      "onset_sec": 15.133295532,
+      "offset_sec": 15.833371212
+    },
+    {
+      "start": 1060,
+      "stop": 1167,
+      "onset_sec": 35.333276536,
+      "offset_sec": 38.933336983
+    },
+    {
+      "start": 1376,
+      "stop": 1382,
+      "onset_sec": 45.866680617,
+      "offset_sec": 46.09999866
+    },
+    {
+      "start": 1394,
+      "stop": 1396,
+      "onset_sec": 46.466623191,
+      "offset_sec": 46.566600202
+    },
+    {
+      "start": 1423,
+      "stop": 1453,
+      "onset_sec": 47.433261815,
+      "offset_sec": 48.466604069
+    },
+    {
+      "start": 1785,
+      "stop": 1791,
+      "onset_sec": 59.499944197,
+      "offset_sec": 59.733286317
+    },
+    {
+      "start": 1799,
+      "stop": 1912,
+      "onset_sec": 59.96666881,
+      "offset_sec": 63.766593268
+    },
+    {
+      "start": 2099,
+      "stop": 2112,
+      "onset_sec": 70.000004475,
+      "offset_sec": 70.466618126
+    },
+    {
+      "start": 2996,
+      "stop": 3021,
+      "onset_sec": 99.900005344,
+      "offset_sec": 100.766598242
+    },
+    {
+      "start": 3029,
+      "stop": 3036,
+      "onset_sec": 100.999998376,
+      "offset_sec": 101.26661884
+    },
+    {
+      "start": 3038,
+      "stop": 3042,
+      "onset_sec": 101.299946076,
+      "offset_sec": 101.466615856
+    },
+    {
+      "start": 3077,
+      "stop": 3107,
+      "onset_sec": 102.599933315,
+      "offset_sec": 103.633268528
+    },
+    {
+      "start": 3113,
+      "stop": 3118,
+      "onset_sec": 103.799941378,
+      "offset_sec": 104.000001866
+    }
+  ],
+  "predicted_events": [
+    {
+      "start": 72,
+      "stop": 80,
+      "onset_sec": 2.399926338,
+      "offset_sec": 2.69995043
+    },
+    {
+      "start": 83,
+      "stop": 203,
+      "onset_sec": 2.766605241,
+      "offset_sec": 6.80077099
+    },
+    {
+      "start": 344,
+      "stop": 350,
+      "onset_sec": 11.466625819,
+      "offset_sec": 11.6999511
+    },
+    {
+      "start": 353,
+      "stop": 370,
+      "onset_sec": 11.766640578,
+      "offset_sec": 12.366601579
+    },
+    {
+      "start": 455,
+      "stop": 474,
+      "onset_sec": 15.166622913,
+      "offset_sec": 15.833371212
+    },
+    {
+      "start": 854,
+      "stop": 858,
+      "onset_sec": 28.466619992,
+      "offset_sec": 28.633282627
+    },
+    {
+      "start": 874,
+      "stop": 900,
+      "onset_sec": 29.133303726,
+      "offset_sec": 30.03327733
+    },
+    {
+      "start": 1353,
+      "stop": 1396,
+      "onset_sec": 45.099975863,
+      "offset_sec": 46.566600202
+    },
+    {
+      "start": 1398,
+      "stop": 1407,
+      "onset_sec": 46.599928563,
+      "offset_sec": 46.933280508
+    },
+    {
+      "start": 1430,
+      "stop": 1457,
+      "onset_sec": 47.666587452,
+      "offset_sec": 48.599960757
+    },
+    {
+      "start": 1591,
+      "stop": 1602,
+      "onset_sec": 53.033258999,
+      "offset_sec": 53.433269184
+    },
+    {
+      "start": 1981,
+      "stop": 1983,
+      "onset_sec": 66.066615378,
+      "offset_sec": 66.16660131
+    },
+    {
+      "start": 1991,
+      "stop": 1999,
+      "onset_sec": 66.399930575,
+      "offset_sec": 66.699948669
+    },
+    {
+      "start": 2002,
+      "stop": 2027,
+      "onset_sec": 66.767452488,
+      "offset_sec": 67.633268921
+    },
+    {
+      "start": 2041,
+      "stop": 2078,
+      "onset_sec": 68.06663777,
+      "offset_sec": 69.333267362
+    },
+    {
+      "start": 2085,
+      "stop": 2087,
+      "onset_sec": 69.533266322,
+      "offset_sec": 69.63329078
+    },
+    {
+      "start": 2102,
+      "stop": 2115,
+      "onset_sec": 70.099991779,
+      "offset_sec": 70.566601969
+    },
+    {
+      "start": 2146,
+      "stop": 2148,
+      "onset_sec": 71.566612256,
+      "offset_sec": 71.666620342
+    },
+    {
+      "start": 2185,
+      "stop": 2192,
+      "onset_sec": 72.866677014,
+      "offset_sec": 73.13329706
+    },
+    {
+      "start": 2249,
+      "stop": 2266,
+      "onset_sec": 74.999999073,
+      "offset_sec": 75.599926353
+    },
+    {
+      "start": 2999,
+      "stop": 3029,
+      "onset_sec": 99.999994675,
+      "offset_sec": 101.033325721
+    },
+    {
+      "start": 3039,
+      "stop": 3043,
+      "onset_sec": 101.333272136,
+      "offset_sec": 101.499943368
+    },
+    {
+      "start": 3063,
+      "stop": 3108,
+      "onset_sec": 102.13330839,
+      "offset_sec": 103.666561433
+    },
+    {
+      "start": 3113,
+      "stop": 3120,
+      "onset_sec": 103.799941378,
+      "offset_sec": 104.066647923
+    }
+  ],
+  "tp": 6,
+  "fp": 18,
+  "fn": 11,
+  "precision": 0.25,
+  "recall": 0.35294117647058826,
+  "onset_mae_ms": 66.66218716667002,
+  "onset_bias_ms": 66.66218716667002,
+  "short_reference_events": 6,
+  "short_matched_events": 2,
+  "short_event_recall": 0.3333333333333333,
+  "matches": [
+    {
+      "reference_index": 0,
+      "prediction_index": 1,
+      "onset_error_ms": 133.34304700000033
+    },
+    {
+      "reference_index": 4,
+      "prediction_index": 4,
+      "onset_error_ms": 33.327380999999434
+    },
+    {
+      "reference_index": 11,
+      "prediction_index": 16,
+      "onset_error_ms": 99.98730400000966
+    },
+    {
+      "reference_index": 12,
+      "prediction_index": 20,
+      "onset_error_ms": 99.98933100000329
+    },
+    {
+      "reference_index": 14,
+      "prediction_index": 21,
+      "onset_error_ms": 33.326060000007374
+    },
+    {
+      "reference_index": 16,
+      "prediction_index": 23,
+      "onset_error_ms": 0.0
+    }
+  ],
+  "unmatched_reference_indices": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    15
+  ],
+  "unmatched_prediction_indices": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    22
+  ]
+}

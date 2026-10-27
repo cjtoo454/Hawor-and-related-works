@@ -1,0 +1,8 @@
+assets/
+data/
+checkpoints/
+runs/
+__pycache__/
+.pytest_cache/
+*.pyc
+mano_right_parameters.npz

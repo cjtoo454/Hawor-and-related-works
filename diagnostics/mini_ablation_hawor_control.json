@@ -1,0 +1,43 @@
+{
+  "status": "HaWoR cached baseline only; requested three variants not run without RGB",
+  "W_MPJPE_mm": 30.987762451171875,
+  "geometry_frames": 2526,
+  "tp": 4,
+  "fp": 8,
+  "fn": 8,
+  "short_reference_events": 7,
+  "short_matched_events": 3,
+  "precision": 0.3333333333333333,
+  "recall": 0.3333333333333333,
+  "onset_mae_ms": 66.654938000001,
+  "short_event_recall": 0.42857142857142855,
+  "clips": [
+    {
+      "sequence": "P0001_9b6feab7",
+      "W_MPJPE_mm": 58.252559661865234,
+      "geometry_frames": 733,
+      "tp": 2,
+      "fp": 4,
+      "fn": 4,
+      "onset_mae_ms": 99.99908949999892
+    },
+    {
+      "sequence": "P0011_76ea6d47",
+      "W_MPJPE_mm": 20.2631778717041,
+      "geometry_frames": 893,
+      "tp": 2,
+      "fp": 3,
+      "fn": 1,
+      "onset_mae_ms": 33.310786500003076
+    },
+    {
+      "sequence": "P0014_84ea2dcc",
+      "W_MPJPE_mm": 19.423274993896484,
+      "geometry_frames": 900,
+      "tp": 0,
+      "fp": 1,
+      "fn": 3,
+      "onset_mae_ms": null
+    }
+  ]
+}

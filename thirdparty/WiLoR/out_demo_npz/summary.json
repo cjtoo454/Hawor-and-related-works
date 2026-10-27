@@ -1,0 +1,9 @@
+[
+  {
+    "image": "test1.jpg",
+    "status": "ok",
+    "hands": 2,
+    "prediction": "test1.npz",
+    "preview": "test1_wilor.jpg"
+  }
+]

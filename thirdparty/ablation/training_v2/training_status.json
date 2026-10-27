@@ -1,0 +1,31 @@
+{
+  "pid": 3019358,
+  "start_utc": "2026-10-20T11:12:43.544546+00:00",
+  "argv": [
+    "/home/user/HaWoR/thirdparty/ablation/training_v2/train_logged.py",
+    "--stage",
+    "motion",
+    "--manifest",
+    "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion_manifest.json",
+    "--config",
+    "/home/user/HaWoR/thirdparty/ablation/training_v2/config.yaml",
+    "--output",
+    "/home/user/HaWoR/thirdparty/ablation/training_v2/checkpoints/latest.pt",
+    "--steps",
+    "5000",
+    "--batch_size_motion",
+    "8",
+    "--save_every",
+    "50",
+    "--num_workers",
+    "0",
+    "--cpu_threads",
+    "2",
+    "--device",
+    "cuda:0",
+    "--seed",
+    "7"
+  ],
+  "status": "completed",
+  "end_utc": "2026-10-20T12:37:44.051134+00:00"
+}

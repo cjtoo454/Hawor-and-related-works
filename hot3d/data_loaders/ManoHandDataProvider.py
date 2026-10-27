@@ -138,3 +138,33 @@ class MANOHandDataProvider(HandDataProviderBase):
             return hand_landmarks, out_rot, out_trans, out_pose, out_betas
 
         return None
+
+    def get_hand_parameters(self, hand_wrist_data: HandPose):
+        """Return the MANO parameters without running mesh forward kinematics."""
+        if (
+            hand_wrist_data.wrist_pose is None
+            or self._mano_shape_params is None
+            or self.mano_layer is None
+        ):
+            return None
+
+        wrist_matrix = torch.from_numpy(hand_wrist_data.wrist_pose.to_matrix())
+        global_orient = transforms.matrix_to_axis_angle(wrist_matrix[:3, :3]).to(
+            self.mano_layer.dtype
+        )
+        translation = wrist_matrix[:3, 3].to(self.mano_layer.dtype)
+        joint_angles = torch.from_numpy(np.asarray(hand_wrist_data.joint_angles)).to(
+            self.mano_layer.dtype
+        )
+        layer = (
+            self.mano_layer.mano_layer_right
+            if hand_wrist_data.handedness == Handedness.Right
+            else self.mano_layer.mano_layer_left
+        )
+        full_hand_pose = torch.einsum(
+            "i,ij->j", joint_angles, layer.hand_components
+        ) + layer.pose_mean[3:]
+        global_orient = global_orient + layer.pose_mean[:3]
+        return global_orient, translation, full_hand_pose, self._mano_shape_params.to(
+            self.mano_layer.dtype
+        )

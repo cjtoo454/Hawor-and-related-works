@@ -62,8 +62,9 @@ for video in testset:
     start_idxs, end_idxs, imgfiles_list = split_list_by_interval(imgfiles)
     for part, imgfiles in enumerate(imgfiles_list):
 
-        if os.path.exists(f'{seq_folder}/hawor_slam_w_scale_{start_idxs[part]}_{end_idxs[part]}.npz'):
-            print(f"skip {seq_folder}/hawor_slam_w_scale_{start_idxs[part]}_{end_idxs[part]}")
+        slam_path = f'{seq_folder}/SLAM/hawor_slam_w_scale_{start_idxs[part]}_{end_idxs[part]}.npz'
+        if os.path.exists(slam_path):
+            print(f"skip {slam_path}")
             continue
 
         first_img = cv2.imread(imgfiles[0])
@@ -136,7 +137,7 @@ for video in testset:
 
         # Save results
         os.makedirs(f"{seq_folder}/SLAM", exist_ok=True)
-        save_path = f'{seq_folder}/SLAM/hawor_slam_w_scale_{start_idxs[part]}_{end_idxs[part]}.npz'
+        save_path = slam_path
         np.savez(save_path, 
                 tstamp=tstamp, disps=disps, traj=traj, 
                 img_focal=focal, img_center=calib[-2:],

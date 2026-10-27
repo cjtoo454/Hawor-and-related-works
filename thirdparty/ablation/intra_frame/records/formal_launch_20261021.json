@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-21T05:04:00+00:00",
+  "training_pid": 3218267,
+  "gpu": 1,
+  "training_steps": 5000,
+  "batch_size": 4,
+  "seed": 7,
+  "selection": "best calibration loss only",
+  "source_sha256": {
+    "train_visual.py": "07ffcf79dcd37599f92fa99a709603f801b0350535dcd2c8825a4e003bef2c19",
+    "prepare_training.py": "903e43c79a355ab5f0faef7d8d4a66a5c1f246aca093cc827ab0c89ad836e6bd",
+    "eval_pipeline.py": "59a89bea8d389a8cca67db29e811577401d15b7c6e08b590adb99df0b5247f5b",
+    "run_intra.py": "a530071ec69206c196aadd3b692615c1cd77f0d0565f38783085454891f9932e",
+    "runtime.py": "48d715de0e688dc6edb8a1eec5607ab85d25a008a62755923c716ecab2057fde",
+    "records/protocol.json": "af2066572f321a59001fb56e2ddd2ee37a463713a5022a08a0c6e45a2b47a200"
+  },
+  "train_dir": "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/visual_train_gpu1",
+  "eval_dir": "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/full_eval_v1"
+}

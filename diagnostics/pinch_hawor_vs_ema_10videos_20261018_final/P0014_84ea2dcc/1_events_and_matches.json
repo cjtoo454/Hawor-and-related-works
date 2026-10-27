@@ -1,0 +1,221 @@
+{
+  "method": "HaWoR + Temporal Filter",
+  "reference_events": [
+    {
+      "start": 604,
+      "stop": 607,
+      "onset_sec": 20.133317955,
+      "offset_sec": 20.266629898
+    },
+    {
+      "start": 1422,
+      "stop": 1443,
+      "onset_sec": 47.433306619,
+      "offset_sec": 48.166658788
+    },
+    {
+      "start": 3025,
+      "stop": 3047,
+      "onset_sec": 100.933301784,
+      "offset_sec": 101.699972103
+    },
+    {
+      "start": 3058,
+      "stop": 3061,
+      "onset_sec": 102.033322383,
+      "offset_sec": 102.166635603
+    },
+    {
+      "start": 3087,
+      "stop": 3127,
+      "onset_sec": 102.999967585,
+      "offset_sec": 104.366637791
+    },
+    {
+      "start": 3139,
+      "stop": 3144,
+      "onset_sec": 104.733320285,
+      "offset_sec": 104.933320546
+    },
+    {
+      "start": 3147,
+      "stop": 3427,
+      "onset_sec": 104.999978863,
+      "offset_sec": 114.366644614
+    },
+    {
+      "start": 4150,
+      "stop": 4153,
+      "onset_sec": 138.433307503,
+      "offset_sec": 138.566651153
+    },
+    {
+      "start": 4166,
+      "stop": 4176,
+      "onset_sec": 138.966655467,
+      "offset_sec": 139.333332386
+    }
+  ],
+  "predicted_events": [
+    {
+      "start": 603,
+      "stop": 612,
+      "onset_sec": 20.099988223,
+      "offset_sec": 20.433302565
+    },
+    {
+      "start": 626,
+      "stop": 707,
+      "onset_sec": 20.866649923,
+      "offset_sec": 23.599974506
+    },
+    {
+      "start": 710,
+      "stop": 724,
+      "onset_sec": 23.666629362,
+      "offset_sec": 24.166640046
+    },
+    {
+      "start": 788,
+      "stop": 813,
+      "onset_sec": 26.266636418,
+      "offset_sec": 27.133318929
+    },
+    {
+      "start": 855,
+      "stop": 860,
+      "onset_sec": 28.499989842,
+      "offset_sec": 28.699991881
+    },
+    {
+      "start": 939,
+      "stop": 948,
+      "onset_sec": 31.333311662,
+      "offset_sec": 31.666662764
+    },
+    {
+      "start": 1422,
+      "stop": 1452,
+      "onset_sec": 47.433306619,
+      "offset_sec": 48.466642842
+    },
+    {
+      "start": 1477,
+      "stop": 1507,
+      "onset_sec": 49.266655871,
+      "offset_sec": 50.299977477
+    },
+    {
+      "start": 1518,
+      "stop": 1560,
+      "onset_sec": 50.633338077,
+      "offset_sec": 52.066655055
+    },
+    {
+      "start": 1571,
+      "stop": 1591,
+      "onset_sec": 52.399988825,
+      "offset_sec": 53.099989585
+    },
+    {
+      "start": 1593,
+      "stop": 1732,
+      "onset_sec": 53.133312929,
+      "offset_sec": 57.799973052
+    },
+    {
+      "start": 2923,
+      "stop": 2966,
+      "onset_sec": 97.533313163,
+      "offset_sec": 99.000033031
+    },
+    {
+      "start": 2975,
+      "stop": 2993,
+      "onset_sec": 99.266653873,
+      "offset_sec": 99.900045752
+    },
+    {
+      "start": 3026,
+      "stop": 3448,
+      "onset_sec": 100.966629402,
+      "offset_sec": 115.066629046
+    },
+    {
+      "start": 3459,
+      "stop": 3465,
+      "onset_sec": 115.39997367,
+      "offset_sec": 115.633329915
+    },
+    {
+      "start": 3998,
+      "stop": 4021,
+      "onset_sec": 133.366648916,
+      "offset_sec": 134.166643856
+    },
+    {
+      "start": 4024,
+      "stop": 4198,
+      "onset_sec": 134.233298824,
+      "offset_sec": 140.06666176
+    },
+    {
+      "start": 4202,
+      "stop": 4229,
+      "onset_sec": 140.166641339,
+      "offset_sec": 141.099989916
+    }
+  ],
+  "tp": 3,
+  "fp": 15,
+  "fn": 6,
+  "precision": 0.16666666666666666,
+  "recall": 0.3333333333333333,
+  "onset_mae_ms": 22.21911666666661,
+  "onset_bias_ms": -0.0007046666657591535,
+  "short_reference_events": 4,
+  "short_matched_events": 1,
+  "short_event_recall": 0.25,
+  "matches": [
+    {
+      "reference_index": 0,
+      "prediction_index": 0,
+      "onset_error_ms": -33.32973199999856
+    },
+    {
+      "reference_index": 1,
+      "prediction_index": 6,
+      "onset_error_ms": 0.0
+    },
+    {
+      "reference_index": 2,
+      "prediction_index": 13,
+      "onset_error_ms": 33.32761800000128
+    }
+  ],
+  "unmatched_reference_indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "unmatched_prediction_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17
+  ]
+}

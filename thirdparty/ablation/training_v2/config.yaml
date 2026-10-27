@@ -1,0 +1,33 @@
+architecture: handloop_v2
+rounds: 2
+twm:
+  width: 256
+  layers: 6
+  heads: 4
+  state_size: 64
+  conv_kernel: 4
+  expand: 2
+  experts: 4
+  history_length: 30
+  modes: 4
+  future_steps: 60
+visual:
+  width: 256
+  heads: 4
+  feature_dim: 1280
+  blocks: 2
+  local_scale: 0.25
+training:
+  updates: 5000
+  window: 32
+  warmup_frames: 0
+  warmup_steps: 20
+  weight_decay: 0.01
+  hawor_lr: 0.000001
+  twm_lr: 0.00001
+  visual_lr: 0.0001
+  state_weight: 0.0001
+  wrist_weight: 1.0
+  joint_weight: 1.0
+  wrist_scale: 0.05
+  joint_scale: 0.05

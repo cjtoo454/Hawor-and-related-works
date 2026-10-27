@@ -1,0 +1,30 @@
+{
+  "review_passed": true,
+  "protocol_revision": 3,
+  "reviewed_utc": "2026-10-21T11:00:37.915744+00:00",
+  "source_sha256": {
+    "train_feedback_v3.py": "fe6759d7dc500ce6810e858abb945e36d7c990baacc9d377ab8aac091036ff18",
+    "world_targets_v3.py": "853d1e1ccf0c593725dd8029e8f69aaadebac8afa9f1cbe2ea2c918bf6f68bdf",
+    "run_feedback_v3.py": "8aadfc207411fa89ad9f06bf685ded5f9409a5cd96236af3432d3e76718aa1d4",
+    "eval_feedback_v3.py": "3d184c6260ecc5fbfcbff277c0cc0105af2386044b4ec8e3cfe3ee18c4fccb3d",
+    "continue_v3_experiment.py": "0e6eb195f46c8937f1eeff8f94e2e5f46ed7605b2e0191d8ae877e4186b95c43",
+    "feedback_v2.py": "92fe9e72a98cdd4c53ab02d942a7612339caef1256ad51324f9ed35fbec3c6cc",
+    "train_feedback_v2.py": "8b6d7fb1bb41143ba1862dd594f2c73b9675345d0f6dbb6dfb37a1733eebfa7c",
+    "v2_cache.py": "f9e0fd6290826f5e7ff8c6766e3084c7eed60414b4bb7a32e7b3b379586fad47",
+    "run_feedback_v2.py": "b8fd876f35147d080c7219c76ce4ac1c47ccf11f93345fe534ea911bbcad9218",
+    "audit_world_reference.py": "d3ceac21e945c90ea860b20417a67f066114591a5ffcbc02b1c174c54b358a8d",
+    "runtime.py": "48d715de0e688dc6edb8a1eec5607ab85d25a008a62755923c716ecab2057fde",
+    "run_intra.py": "a530071ec69206c196aadd3b692615c1cd77f0d0565f38783085454891f9932e",
+    "eval_pipeline.py": "59a89bea8d389a8cca67db29e811577401d15b7c6e08b590adb99df0b5247f5b",
+    "extend_calibration_cache.py": "a0fd4eed6ebae7cf8d7e10eb306d4eac6b1ff7fefd3cb93af10892c8b8fa66e2"
+  },
+  "data_sha256": {
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/calibration_events_v3/calibration_manifest.json": "f2cd910462518afcb1e56bba67bf122da79a9bc3111d3f2fc95976577fec5f44",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/world_reference_audit_v2/camera_map_train_calibration_53seq.json": "090cb5e76bcce2e59d7bb5094e70cd89c8afb37024dd5429f1839187cae68ba4",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/feedback_v3_train/validation_focused_v3.json": "d1e048f8a125792c7fb96a997e82212c41374a48280939d614f1af3b3de2ce46",
+    "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/feedback_v3_train/gpu16_smoke.log": "b884e16214ca55b802ee35a7e3a8c8b0264ef08286edb8f5f875feb6624a66d0"
+  },
+  "review": "Astra high independent final review passed; fixes verified incrementally",
+  "evidence": "validation_focused_v3.json and gpu16_smoke.log; prior v2 model and memory tests reused",
+  "pending_gate": "Actual completed-cache baseline-only integration must pass before this pending record is promoted to v3_training_ready.json"
+}

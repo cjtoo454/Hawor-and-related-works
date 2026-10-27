@@ -1,0 +1,87 @@
+{
+  "scope": "cached legacy epoch29 full-sequence evaluation; not the 32-frame-warmup mini ablation",
+  "variant": "Full Dual-loop (legacy)",
+  "num_videos": 10,
+  "w_mpjpe_mm": 38.89745330810547,
+  "onset_mae_ms": 71.5753252592586,
+  "tp": 27,
+  "fp": 170,
+  "fn": 64,
+  "reference_events": 91,
+  "matching_tolerance_ms": 200.0,
+  "prediction_threshold": 0.275,
+  "reference_threshold": 0.2,
+  "reference_type": "GT geometry pinch proxy",
+  "per_video": [
+    {
+      "sequence": "P0001_a68492d5",
+      "tp": 0,
+      "fp": 11,
+      "fn": 1,
+      "onset_mae_ms": null
+    },
+    {
+      "sequence": "P0001_9b6feab7",
+      "tp": 7,
+      "fp": 17,
+      "fn": 10,
+      "onset_mae_ms": 61.909776714283986
+    },
+    {
+      "sequence": "P0014_8254f925",
+      "tp": 1,
+      "fp": 23,
+      "fn": 4,
+      "onset_mae_ms": 133.34081300000022
+    },
+    {
+      "sequence": "P0011_76ea6d47",
+      "tp": 2,
+      "fp": 13,
+      "fn": 1,
+      "onset_mae_ms": 33.310786500003076
+    },
+    {
+      "sequence": "P0014_84ea2dcc",
+      "tp": 2,
+      "fp": 24,
+      "fn": 7,
+      "onset_mae_ms": 100.00166099999674
+    },
+    {
+      "sequence": "P0001_8d136980",
+      "tp": 7,
+      "fp": 10,
+      "fn": 11,
+      "onset_mae_ms": 76.0715745714283
+    },
+    {
+      "sequence": "P0012_476bae57",
+      "tp": 1,
+      "fp": 24,
+      "fn": 8,
+      "onset_mae_ms": 133.34335300000077
+    },
+    {
+      "sequence": "P0012_130a66e1",
+      "tp": 2,
+      "fp": 13,
+      "fn": 4,
+      "onset_mae_ms": 66.67175199999775
+    },
+    {
+      "sequence": "P0014_24cb3bf0",
+      "tp": 1,
+      "fp": 3,
+      "fn": 3,
+      "onset_mae_ms": 33.32744200000093
+    },
+    {
+      "sequence": "P0010_1c9fe708",
+      "tp": 4,
+      "fp": 32,
+      "fn": 15,
+      "onset_mae_ms": 66.67107899999979
+    }
+  ]
+}

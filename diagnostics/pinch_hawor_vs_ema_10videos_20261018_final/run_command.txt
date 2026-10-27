@@ -1,0 +1,1 @@
+PYTHONPATH=thirdparty/try .env/try/bin/python -u thirdparty/try/scripts/eval_pinch_events.py --output diagnostics/pinch_hawor_vs_ema_10videos_20261018_final --device cpu --threads 2

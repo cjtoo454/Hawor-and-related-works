@@ -39,7 +39,6 @@ from data_loaders.ObjectPose3dProvider import (
 )
 from data_loaders.PathProvider import Hot3dDataPathProvider
 
-from data_loaders.QuestDataProvider import QuestDataProvider
 
 # 3D assets
 # - object_uid
@@ -143,6 +142,8 @@ class Hot3dDataProvider:
                 self.path_provider.mps_folderpath,
             )
         elif self.get_device_type() == Headset.Quest3:
+            from data_loaders.QuestDataProvider import QuestDataProvider
+
             self._device_data_provider = QuestDataProvider(
                 self.path_provider.vrs_filepath,
                 self.path_provider.camera_models_filepath,

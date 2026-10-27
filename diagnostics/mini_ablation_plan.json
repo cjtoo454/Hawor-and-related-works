@@ -1,0 +1,69 @@
+{
+  "status": "blocked_missing_validation_RGB_and_camera_assets",
+  "scope": "User-authorized legacy inference-time three-variant ablation; no retraining",
+  "frames_per_clip": 900,
+  "clips": [
+    {
+      "sequence": "P0001_9b6feab7",
+      "start_frame": 1050,
+      "stop_frame_exclusive": 1950,
+      "warmup_start_frame": 1018,
+      "reference_events": 6,
+      "short_reference_events": 3,
+      "common_valid_frames": 747
+    },
+    {
+      "sequence": "P0011_76ea6d47",
+      "start_frame": 2040,
+      "stop_frame_exclusive": 2940,
+      "warmup_start_frame": 2008,
+      "reference_events": 3,
+      "short_reference_events": 3,
+      "common_valid_frames": 893
+    },
+    {
+      "sequence": "P0014_84ea2dcc",
+      "start_frame": 3060,
+      "stop_frame_exclusive": 3960,
+      "warmup_start_frame": 3028,
+      "reference_events": 3,
+      "short_reference_events": 1,
+      "common_valid_frames": 900
+    }
+  ],
+  "selection": "first eligible clip per sequence in val.json order; at least3complete GTproxy events,1short event,80percent common coverage; no use of ablation scores",
+  "fixed_event_protocol": "diagnostics/pinch_hawor_vs_ema_10videos_20261018_final/protocol_frozen.json",
+  "metrics": [
+    "W-MPJPE_mm",
+    "event_precision",
+    "event_recall",
+    "onset_MAE_ms",
+    "short_event_recall",
+    "matched_events_count"
+  ],
+  "legacy_variants": [
+    {
+      "name": "Fixed-evidence correction, raw history",
+      "intra_frame_reobserve": false,
+      "corrected_state_feedback": false
+    },
+    {
+      "name": "+Intra-frame re-observation",
+      "intra_frame_reobserve": true,
+      "corrected_state_feedback": false
+    },
+    {
+      "name": "+Full dual-loop",
+      "intra_frame_reobserve": true,
+      "corrected_state_feedback": true
+    }
+  ],
+  "legacy_checkpoint": "thirdparty/try/runs/hot3d_train100_full_dualloop/full_model/checkpoints/dual_loop.best.pt",
+  "blockers": [
+    "Validation dataset missing at datasets/hot3d_valset_export; no local readable target RGB found"
+  ],
+  "reference_events": 12,
+  "short_reference_events": 7,
+  "checkpoint_sha256": "2c408264daa14993417d63cbbdf0c64df81ce38960478fcf47a8faa9586c9c08",
+  "fixed_event_protocol_sha256": "f62cba1337a0af9acf2e07ab878eaa6e1356539e522e61d7556b724d02e482fd"
+}

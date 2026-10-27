@@ -1,0 +1,34 @@
+/home/user/HaWoR/thirdparty/DROID-SLAM/droid_slam/motion_filter.py:32: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/home/user/HaWoR/thirdparty/DROID-SLAM/droid_slam/motion_filter.py:38: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/home/user/HaWoR/thirdparty/DROID-SLAM/droid_slam/motion_filter.py:43: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/home/user/HaWoR/thirdparty/DROID-SLAM/droid_slam/factor_graph.py:85: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/home/user/HaWoR/thirdparty/DROID-SLAM/droid_slam/factor_graph.py:136: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/home/user/HaWoR/thirdparty/DROID-SLAM/droid_slam/factor_graph.py:164: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/home/user/HaWoR/thirdparty/DROID-SLAM/droid_slam/factor_graph.py:199: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/home/user/HaWoR/thirdparty/DROID-SLAM/droid_slam/factor_graph.py:264: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/user/HaWoR/thirdparty/DROID-SLAM/droid_slam/trajectory_filler.py:30: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=True)
+/home/user/HaWoR/.env/hawor/lib/python3.10/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+usage: test_mdslam_hot3d.py [-h] [--img_focal IMG_FOCAL]
+                            [--img_center IMG_CENTER [IMG_CENTER ...]]
+                            [--device DEVICE] [--set_file SET_FILE]
+                            [--video_root VIDEO_ROOT]
+                            [--img_folder IMG_FOLDER]
+
+options:
+  -h, --help            show this help message and exit
+  --img_focal IMG_FOCAL
+  --img_center IMG_CENTER [IMG_CENTER ...]
+  --device DEVICE
+  --set_file SET_FILE
+  --video_root VIDEO_ROOT
+  --img_folder IMG_FOLDER

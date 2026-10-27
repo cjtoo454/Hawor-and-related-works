@@ -1,0 +1,21 @@
+{
+  "reviewer_model": "gpt-6-sol",
+  "reasoning_effort": "high",
+  "blocking_issues": [],
+  "fixed": [
+    "supervisor process-exit read race",
+    "cooperating file lock and atomic document replacement"
+  ],
+  "limitations": [
+    "Calibration selects one fixed valid frame per video: 20 frames total",
+    "Test is oracle-assisted with GT-projected boxes and offline HaWoR context",
+    "Training includes real images with raw detection unavailable; these inputs differ from inference visual gating"
+  ],
+  "training_observed": {
+    "step": 269,
+    "first_calibration_step": 250,
+    "first_calibration_loss": 0.6851270854473114,
+    "best_checkpoint_saved": true
+  },
+  "final_evaluation_pending": true
+}

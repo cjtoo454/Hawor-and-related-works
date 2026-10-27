@@ -1,0 +1,8 @@
+numpy
+torch
+opencv-python
+joblib
+matplotlib
+PyYAML
+scipy
+

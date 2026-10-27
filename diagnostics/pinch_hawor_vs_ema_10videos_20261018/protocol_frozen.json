@@ -1,0 +1,210 @@
+{
+  "reference_type": "GT-geometry-derived pinch proxy; not human annotation or software ground truth",
+  "distance": "||thumb_tip4-index_tip8|| / ||wrist0-middle_MCP9||",
+  "reference_threshold": 0.2,
+  "min_frames": 3,
+  "short_event_frames": [
+    3,
+    10
+  ],
+  "filter": "causal EMA of 21 world XYZ joints, reset at missing evidence/SLAM interval/time gap",
+  "filter_tau_sec": 0.1,
+  "filter_alpha": "1-exp(-actual_dt/tau)",
+  "onset_tolerance_sec": 0.2,
+  "matching": "maximum-cardinality one-to-one; minimum absolute onset error; positive interval overlap",
+  "censored_events": "exclude runs without observed preceding OPEN or following OPEN, for both reference and prediction",
+  "onset": "first below-threshold frame, backdated after min_frames confirmation",
+  "confidence": "binary finite-observation mask only; not a learned reliability estimate",
+  "quality_threshold": 0.5,
+  "calibration_sequences": [
+    "P0015_179e1b84",
+    "P0015_1eb4f17f",
+    "P0015_367cc58d",
+    "P0015_3a9bb2ae",
+    "P0015_3c7f5241",
+    "P0015_3f46732d",
+    "P0015_42b8b389",
+    "P0015_4e5d1c14",
+    "P0015_53358a64",
+    "P0015_60573a3b",
+    "P0015_745920f0",
+    "P0015_7e95628d",
+    "P0015_7fc6548d",
+    "P0015_b0c5102b",
+    "P0015_c3e1f590",
+    "P0015_cc5dfd13",
+    "P0015_cc739faa",
+    "P0015_dbe00981",
+    "P0015_e3f96b3f",
+    "P0015_e7458eb3"
+  ],
+  "test_sequences": [
+    "P0001_a68492d5",
+    "P0001_9b6feab7",
+    "P0014_8254f925",
+    "P0011_76ea6d47",
+    "P0014_84ea2dcc",
+    "P0001_8d136980",
+    "P0012_476bae57",
+    "P0012_130a66e1",
+    "P0014_24cb3bf0",
+    "P0010_1c9fe708"
+  ],
+  "prediction_threshold_candidates": [
+    0.15,
+    0.175,
+    0.2,
+    0.225,
+    0.25,
+    0.275,
+    0.3
+  ],
+  "selection": "maximize mean of two methods pooled calibration event F1; ties choose closest to reference threshold",
+  "missing_prediction": "count recoverable reference events as false negatives, not silently remove them",
+  "baseline_scope": "archived HaWoR visual-valid evaluation frames; GT-projected boxes; no missing-gap recovery",
+  "software_windows": "synthetic positive/negative controls derived from GT geometry; not real software logs",
+  "code_sha256": "b7385f2ee159a3fd5454bb12a228fe8551ea187c45c3f6a48700c65dc03463d3",
+  "scoring_code_sha256": "bbdcd8bd71a5d292d7f309380e05e7f554783230cfb83b4a7390d156f481be7e",
+  "oracle_code_sha256": "5fa1220d4fce20cf2038b7322f4e5717819cf612d32b92b476642e6fbf3448ca",
+  "prediction_threshold": 0.275,
+  "calibration_selection": {
+    "threshold": 0.275,
+    "score": 0.2930162024104078,
+    "methods": {
+      "HaWoR": {
+        "tp": 56,
+        "fp": 94,
+        "fn": 168,
+        "reference_events": 224,
+        "predicted_events": 150,
+        "precision": 0.37333333333333335,
+        "recall": 0.25,
+        "f1": 0.2994652406417112,
+        "onset_mae_ms": 66.06804076727713,
+        "onset_bias_ms": -36.31061105313295,
+        "onset_p95_absolute_error_ms": 166.6751305001526,
+        "short_reference_events": 114,
+        "short_matched_events": 31,
+        "short_event_recall": 0.2719298245614035
+      },
+      "HaWoR + Temporal Filter": {
+        "tp": 48,
+        "fp": 63,
+        "fn": 176,
+        "reference_events": 224,
+        "predicted_events": 111,
+        "precision": 0.43243243243243246,
+        "recall": 0.21428571428571427,
+        "f1": 0.2865671641791045,
+        "onset_mae_ms": 64.5825482708157,
+        "onset_bias_ms": -0.6943290622984932,
+        "onset_p95_absolute_error_ms": 166.67313164689403,
+        "short_reference_events": 114,
+        "short_matched_events": 25,
+        "short_event_recall": 0.21929824561403508
+      }
+    }
+  },
+  "calibration_sources": [
+    {
+      "sequence": "P0015_179e1b84",
+      "archive_sha256": "4889db0c1123c39521e6a7c0ea23cce75a4ef328660dde06469863734608658a",
+      "frames": 1013
+    },
+    {
+      "sequence": "P0015_1eb4f17f",
+      "archive_sha256": "8f6a9ae471fbcc0558e8f5ab260008d05538a0bfd5112af776bc5c8b55dc3459",
+      "frames": 2924
+    },
+    {
+      "sequence": "P0015_367cc58d",
+      "archive_sha256": "5219cf3b6fef533aab547a6c7e76bc82b6ab523533e69e61e16cff489d73403f",
+      "frames": 3784
+    },
+    {
+      "sequence": "P0015_3a9bb2ae",
+      "archive_sha256": "6ba20911c3e0f044e462c21d89ec03efb341007bc9aa3740b221c2ced815ffdc",
+      "frames": 1866
+    },
+    {
+      "sequence": "P0015_3c7f5241",
+      "archive_sha256": "41cd6b53be098935073a660d1ef12dd6da48d18a2ef3ded40cb2233e5a8a51c5",
+      "frames": 1929
+    },
+    {
+      "sequence": "P0015_3f46732d",
+      "archive_sha256": "30209f56bf4e68575f00febfec2958e321d5e6671d4467f86e958ad21f2b9319",
+      "frames": 3653
+    },
+    {
+      "sequence": "P0015_42b8b389",
+      "archive_sha256": "54eb6d1bb816d4a25141cc4f63cfcb4bf98ce93d269074ec4db9c218f15f21d3",
+      "frames": 3680
+    },
+    {
+      "sequence": "P0015_4e5d1c14",
+      "archive_sha256": "d23b874288ba7094af003d8159e17a26bf4e62900fd3af5ee713b6f722bb6127",
+      "frames": 3959
+    },
+    {
+      "sequence": "P0015_53358a64",
+      "archive_sha256": "fd4036c2cd1e9ee75573dba57a01acf75aef254c247d137d31d136b08e8be3d2",
+      "frames": 3604
+    },
+    {
+      "sequence": "P0015_60573a3b",
+      "archive_sha256": "3fccdddd41a182617da35a3b6bccfd5e5a65e5b578f960a06a08ec4a67140057",
+      "frames": 2720
+    },
+    {
+      "sequence": "P0015_745920f0",
+      "archive_sha256": "5e0486374e6052e94dc155dae0216ce314cb3149e1328aba3c23b3d7ba93cce1",
+      "frames": 1194
+    },
+    {
+      "sequence": "P0015_7e95628d",
+      "archive_sha256": "4abba49519ad2fdaeb5d489eda844ea6f7c37e48448c70676c020da174cb3ebb",
+      "frames": 3928
+    },
+    {
+      "sequence": "P0015_7fc6548d",
+      "archive_sha256": "e030b40770be82136d2d0e7b4d8a3293978ea614b380941062f7f4fcf3d7f391",
+      "frames": 3791
+    },
+    {
+      "sequence": "P0015_b0c5102b",
+      "archive_sha256": "516b3f4e9bad491351768b5fe9b4d30cf1c2414bd307772ba0a53fae23554a5b",
+      "frames": 3730
+    },
+    {
+      "sequence": "P0015_c3e1f590",
+      "archive_sha256": "79daf5fc088794a4fa811d7e77dac7f1c70deac65d8af624e1af9cf8963eaa42",
+      "frames": 3709
+    },
+    {
+      "sequence": "P0015_cc5dfd13",
+      "archive_sha256": "ccba0e3e885e9a34380f088026a801cc2a40afa48764f4849a317aa24d71d6b6",
+      "frames": 3615
+    },
+    {
+      "sequence": "P0015_cc739faa",
+      "archive_sha256": "ecb9d084f8bd72316b9478f010d6cad9536140dae96f0548092483183c911d04",
+      "frames": 3720
+    },
+    {
+      "sequence": "P0015_dbe00981",
+      "archive_sha256": "1f0023e924fc3021cf51f54817209c92b437821aa685a7f03ce4ed37c10a1d0e",
+      "frames": 1937
+    },
+    {
+      "sequence": "P0015_e3f96b3f",
+      "archive_sha256": "495301b7280e9a1afd0e5a050bff800ec00d0d8f52835e073c9c79d6539581e5",
+      "frames": 3664
+    },
+    {
+      "sequence": "P0015_e7458eb3",
+      "archive_sha256": "818b933e60a6d22462bb8e84337dfafd666b3aa1debcf5bebf9bcecd79f5c92b",
+      "frames": 3646
+    }
+  ]
+}

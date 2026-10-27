@@ -36,7 +36,11 @@ def camera_marker_geometry(radius, height):
     return vertices, faces, face_colors
 
 
-def run_vis2_on_video(res_dict, res_dict2, output_pth, focal_length, image_names, R_c2w=None, t_c2w=None, interactive=True):
+def run_vis2_on_video(res_dict, res_dict2, output_pth, focal_length, image_names, R_c2w=None, t_c2w=None, interactive=None):
+    if interactive is None:
+        interactive = bool(os.environ.get("DISPLAY") or os.environ.get("WAYLAND_DISPLAY"))
+        if not interactive:
+            print("No graphical display detected; rendering world view to video with EGL.")
     
     img0 = cv2.imread(image_names[0])
     height, width, _ = img0.shape
@@ -137,12 +141,20 @@ def run_vis2_on_video(res_dict, res_dict2, output_pth, focal_length, image_names
         viewer.render_seq(batch, out_folder=os.path.join(output_pth, 'aitviewer'))
     else:
         viewer = viewer_utils.ARCTICViewer(interactive=False, size=(vis_w, vis_h), render_types=['video'])
-        if os.path.exists(os.path.join(output_pth, 'aitviewer', "video_0.mp4")):
-            os.remove(os.path.join(output_pth, 'aitviewer', "video_0.mp4"))
-        viewer.render_seq(batch, out_folder=os.path.join(output_pth, 'aitviewer'))
-        return os.path.join(output_pth, 'aitviewer', "video_0.mp4")
+        render_folder = os.path.join(output_pth, 'aitviewer')
+        os.makedirs(render_folder, exist_ok=True)
+        # AITViewer appends a sequence index to the requested video basename.
+        video_path = os.path.join(render_folder, "video_0.mp4")
+        if os.path.exists(video_path):
+            os.remove(video_path)
+        viewer.render_seq(batch, out_folder=render_folder)
+        return video_path
 
-def run_vis2_on_video_cam(res_dict, res_dict2, output_pth, focal_length, image_names, R_w2c=None, t_w2c=None):
+def run_vis2_on_video_cam(res_dict, res_dict2, output_pth, focal_length, image_names, R_w2c=None, t_w2c=None, interactive=None):
+    if interactive is None:
+        interactive = bool(os.environ.get("DISPLAY") or os.environ.get("WAYLAND_DISPLAY"))
+        if not interactive:
+            print("No graphical display detected; rendering camera view to video with EGL.")
     
     img0 = cv2.imread(image_names[0])
     height, width, _ = img0.shape
@@ -210,8 +222,16 @@ def run_vis2_on_video_cam(res_dict, res_dict2, output_pth, focal_length, image_n
     data = viewer_utils.ViewerData(Rt, K, cols, rows, imgnames=image_names)
     batch = (meshes, data)
 
-    viewer = viewer_utils.ARCTICViewer(interactive=True, size=(vis_w, vis_h))
-    viewer.render_seq(batch, out_folder=os.path.join(output_pth, 'aitviewer'))
+    render_folder = os.path.join(output_pth, 'aitviewer')
+    os.makedirs(render_folder, exist_ok=True)
+    viewer = viewer_utils.ARCTICViewer(
+        interactive=interactive,
+        size=(vis_w, vis_h),
+        render_types=['video'] if not interactive else ["rgb", "depth", "mask"],
+    )
+    viewer.render_seq(batch, out_folder=render_folder)
+    if not interactive:
+        return os.path.join(render_folder, "video_0.mp4")
 
 def lookat_matrix(source_pos, target_pos, up):
     """

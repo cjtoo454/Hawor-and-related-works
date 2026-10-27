@@ -1,0 +1,8 @@
+{
+  "source": "runs/diagnose_v4_components/metrics.json",
+  "baseline_W_mm": 36.14371309112616,
+  "old_learned_full_W_mm": 35.685466743866336,
+  "base_pose_learned_fingers_W_mm": 36.8132,
+  "base_position_learned_rotations_W_mm": 36.8716,
+  "conclusion": "Replacing old learned root pose with TWM root does not repair calibration W; retain coupled pose learning with corrected same-state update and long-window objective. Component probe is calibration only."
+}

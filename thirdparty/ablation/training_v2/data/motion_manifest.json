@@ -1,0 +1,386 @@
+{
+  "schema": "handloop_v2",
+  "train": [
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0002_016222d1.npz",
+      "participant": "P0002",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "1a6b492dca104f0c91a6a0091ed6946b7db11d2c7a9bce0e353f70a189d34575"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0002_2ea9af5b.npz",
+      "participant": "P0002",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "dd0adccac6c57a248837c59ece38d6a9a51c69b32f259b66dd8d5effc93f5264"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0002_59a84a3a.npz",
+      "participant": "P0002",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "da7a88f6181d78aa040762cfd309adc4170e7cf055679b15001354efe2938b13"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0002_65085bfc.npz",
+      "participant": "P0002",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "60a65b43838a91f5d55a2a2fd4937a3b79d7d8d330c7a6fc9b56b63d1758c07d"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0002_c68438ce.npz",
+      "participant": "P0002",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "0bb01be6b8b0fc80e0e073d3867b1985945ce0df6b50a241adaaad9831f597da"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0003_1fa0bb65.npz",
+      "participant": "P0003",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "6166797f69a65aa38b691c772345261ab099ddc9a0ef939390927a4e9705ea2a"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0003_5766eae8.npz",
+      "participant": "P0003",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "65834cbb5b5346665c1c4b832936d5ab2a368d6368241f38bb73b49fb97e4591"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0003_743d3087.npz",
+      "participant": "P0003",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "de6222e17f898861155b5a62bb04fe510ef436b8e57cf4a1c5599ec584f0bb80"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0003_c701bd11.npz",
+      "participant": "P0003",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "ec2bcf91f0342415836326cdae386f10d0c705d07cfac470313509566e2ac722"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0003_cbd17f20.npz",
+      "participant": "P0003",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "877f8ccbfd16f965aeb9ba38680e20ce4ae53aa14bc1c597d63395aa39a4b1f7"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0003_e3a74169.npz",
+      "participant": "P0003",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "72dbad6b43439817bc24a307e32f2234066c8d9ffa698384b185d23c94f31783"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0003_ebdc6ff7.npz",
+      "participant": "P0003",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "412a0566d47c5c590d2d8a864a5f2d8847d9523b490d733b59be7e5e76a3844a"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0003_f4730606.npz",
+      "participant": "P0003",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "0e549b3d805c537a287674a9e29f5612c126e6542ba1ceb85ee627701cd64e56"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_02511c2f.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "cb54cd799ac546242fcaee76bd62c8a5245a9ffc5375d9ea6724f39eb1da2e6a"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_0e02bf39.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "3abfc276e9f6260aaa65e9e0d7098aef8b1978d94efc1b856f583440b10ae49a"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_1b21bb01.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "c023658da7aff1651f5bb249f6adef88bb8665692bfb3296173a969c7e7e1617"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_247b5403.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "9eb52e6ed964a976f720f1777cf695c16345ef8afb9076ba8cf4730a5b21df11"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_24af5475.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "c6aacb2d77993765ef31944425abf27461d3d7b0f21404a60abf23ff219342dd"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_37e30628.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "9bdcde13d0f55796ab559f11238b0160b83e3091be82dbc21529aa538a9ddad2"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_5bb7cc2a.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "75c64f1b6586803bcf74897ec076f3e6153e4b75fe610f33575f23e9133a7f17"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_5f2583e0.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "38d51c561c9f067f37e34e491c84a2e9e5de44875830b06f77cb5f496305d417"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_88a58b3b.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "e64164ceece13b152a582f9e65ca0a1f6157bf76b521b34096b6575be2bc8919"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_8c0caf6c.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "cd42ebc4cbe5c52dda23fb92bb5b206b03effa9470d9bbcbce3cec4b2ab8df9a"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_8c95667c.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "8f7a9b8d7b302c516d74c6ccf8434c2b486209acc35f6d83ec8e2319fdc60815"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_911a4ba5.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "cd9397a567bc5455dcc2e76407dbb84300b0e7b6937ce5d911839308324db716"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_927973d7.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "c3a0a7e75e0cf63a48744401012e6ca15cf917f08d334d44c9861cfb642db949"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_9e03121a.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "a0653f66a50e59667eebac12b0d92dc297c07451a1209c352effc5a35c7be503"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_b1e71d7f.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "d52cc6a999648eb6eb88d3364e8a01e6ad788c6c64844f0d98b9a77473542163"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_b7d8c222.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "96634dbc074a3fb69c4be10c465404ae71acdcaa739f7728842b7a868adfbd8c"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_cf323827.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "cd4177c6f055ca5b44916407af7d6440ee2e462b7a6a0b19d34bca254240f5f1"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_e27ad19f.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "2bb04490cb6939a5f49f32cfc99013fde713a8ac7d9a7ac92e54e82bef5079e3"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_e71e2f24.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "9f8116c05e1fe6949aafc8bf8d79df47a9515171901ce33800c3d128ef4d533e"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0009_ea91844d.npz",
+      "participant": "P0009",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "372c3f0e0c4a72104886225ac84493dfbebfe65ab74aa8be6466965a2b8862b8"
+    }
+  ],
+  "calibration": [
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_179e1b84.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "8daa51388b7d5ae2ac515b1bd62a93f6130240475ec466c77ed1ced386b45ba3"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_1eb4f17f.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "c3ea6664c27d5fb39689858c2716f2327fb9e11b4d39d0e9726a6b9b692a15f5"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_367cc58d.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "9c6c3722d1a67ae3603a000d779a5820fe069444813c769c5d8040b468d98243"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_3a9bb2ae.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "388dc06034497f10beeac2bd84129cf3c1a9fa7c64ba903d39b720a8ca2bed80"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_3c7f5241.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "0dc1d2ccb07e8cf18d1b13832146eecae9b6d962747451fbde02ee39c38fd99a"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_3f46732d.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "1ecca1cd5b706b5e2bef0b0f6acae5138a099bcaea42de39f421003bce7d486e"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_42b8b389.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "1e604b561218e79192544ffe685e88d767201e43e53f99697776d34f70782dab"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_4e5d1c14.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "b8c93ad4217a10e193357c036c44e8a967c6919f542b7d777082e262c392bab5"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_53358a64.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "f799ed3ac4b892ef4c54d9231bde2042e0cd03cf419df50b27825910f72c7647"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_60573a3b.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "40087984d2b4ff11c484b70da3413ec345df2f2256ea3adcb924e22bd9b9a6f1"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_745920f0.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "b874e0cc9c9786a555adc03d08d645fa5f118e88f09e63372f455d759455f303"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_7e95628d.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "43df6bf3fbb744ae0cbff2667cc3a2a5973d90219192ad2449912821a7974853"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_7fc6548d.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "a376be25e120a714294313497fe19bb5d9c600ed09c03db78d3dc668985cd3e0"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_b0c5102b.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "4f39b93dc8060d18da447b62ff9c1b09ec9de8fe0d9709ecb6aaf56b276b76ca"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_c3e1f590.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "90071da5ce9fe0d304b884928f396443acb0b2209a6d18214d8dc4c00ca77758"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_cc5dfd13.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "ffd0dac51b4f6038aa85b98cb951851c7df35947eb56b472fb27644b6d060d84"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_cc739faa.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "3c77b8aeb5ab0cd9a3e08bb97cfc930c94e77923b9d6eb910232352913fbf00f"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_dbe00981.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "b329214166c203c2ed3a93158ce723494ff4488fb1fdf5a7ac2de6441b7aebc0"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_e3f96b3f.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "6829dffc1847b08cf744b05777b5e8f16d5de9fed02e6371c7d984d1aad14698"
+    },
+    {
+      "path": "/home/user/HaWoR/thirdparty/ablation/training_v2/data/motion/P0015_e7458eb3.npz",
+      "participant": "P0015",
+      "source": "HOT3D",
+      "kind": "motion",
+      "sha256": "84d47c5d47c6897cd91ddc38692d674663369f480419f21282326fc6253e3a99"
+    }
+  ],
+  "test": [],
+  "skipped": [],
+  "provenance": {
+    "split_file": "/home/user/HaWoR/datasets/hot3d_train100_export/training_split.json",
+    "split_sha256": "d6766ab83dd5a3320c5900b620ce538119b9fe8da7501c038116582c51868622",
+    "heldout_protocol": "/home/user/HaWoR/diagnostics/pinch_hawor_vs_ema_10videos_20261018_final/protocol_frozen.json",
+    "heldout_protocol_sha256": "f62cba1337a0af9acf2e07ab878eaa6e1356539e522e61d7556b724d02e482fd"
+  }
+}

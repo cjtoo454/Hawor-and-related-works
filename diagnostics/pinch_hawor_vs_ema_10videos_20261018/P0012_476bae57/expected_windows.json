@@ -1,0 +1,401 @@
+[
+  {
+    "id": "positive_0",
+    "start": 1.9333339850000002,
+    "stop": 2.3333339850000003,
+    "expected": "pass",
+    "source": "simulated_from_GT_geometry_reference_onset"
+  },
+  {
+    "id": "positive_1",
+    "start": 3.366650951,
+    "stop": 3.7666509510000004,
+    "expected": "pass",
+    "source": "simulated_from_GT_geometry_reference_onset"
+  },
+  {
+    "id": "positive_2",
+    "start": 9.600009048,
+    "stop": 10.000009047999999,
+    "expected": "pass",
+    "source": "simulated_from_GT_geometry_reference_onset"
+  },
+  {
+    "id": "positive_3",
+    "start": 49.833385389,
+    "stop": 50.233385389000006,
+    "expected": "pass",
+    "source": "simulated_from_GT_geometry_reference_onset"
+  },
+  {
+    "id": "positive_4",
+    "start": 54.333321004999995,
+    "stop": 54.733321005,
+    "expected": "pass",
+    "source": "simulated_from_GT_geometry_reference_onset"
+  },
+  {
+    "id": "positive_5",
+    "start": 58.466684844999996,
+    "stop": 58.866684845,
+    "expected": "pass",
+    "source": "simulated_from_GT_geometry_reference_onset"
+  },
+  {
+    "id": "positive_6",
+    "start": 59.966653488,
+    "stop": 60.366653488000004,
+    "expected": "pass",
+    "source": "simulated_from_GT_geometry_reference_onset"
+  },
+  {
+    "id": "positive_7",
+    "start": 75.66672012299999,
+    "stop": 76.066720123,
+    "expected": "pass",
+    "source": "simulated_from_GT_geometry_reference_onset"
+  },
+  {
+    "id": "positive_8",
+    "start": 108.600831843,
+    "stop": 109.000831843,
+    "expected": "pass",
+    "source": "simulated_from_GT_geometry_reference_onset"
+  },
+  {
+    "id": "negative_9",
+    "start": 0.8,
+    "stop": 1.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_10",
+    "start": 4.8,
+    "stop": 5.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_11",
+    "start": 6.8,
+    "stop": 7.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_12",
+    "start": 8.8,
+    "stop": 9.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_13",
+    "start": 10.8,
+    "stop": 11.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_14",
+    "start": 12.8,
+    "stop": 13.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_15",
+    "start": 14.8,
+    "stop": 15.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_16",
+    "start": 16.8,
+    "stop": 17.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_17",
+    "start": 18.8,
+    "stop": 19.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_18",
+    "start": 20.8,
+    "stop": 21.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_19",
+    "start": 22.8,
+    "stop": 23.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_20",
+    "start": 24.8,
+    "stop": 25.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_21",
+    "start": 26.8,
+    "stop": 27.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_22",
+    "start": 28.8,
+    "stop": 29.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_23",
+    "start": 30.8,
+    "stop": 31.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_24",
+    "start": 32.8,
+    "stop": 33.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_25",
+    "start": 34.8,
+    "stop": 35.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_26",
+    "start": 38.8,
+    "stop": 39.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_27",
+    "start": 40.8,
+    "stop": 41.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_28",
+    "start": 42.8,
+    "stop": 43.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_29",
+    "start": 48.8,
+    "stop": 49.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_30",
+    "start": 52.8,
+    "stop": 53.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_31",
+    "start": 56.8,
+    "stop": 57.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_32",
+    "start": 60.8,
+    "stop": 61.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_33",
+    "start": 62.8,
+    "stop": 63.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_34",
+    "start": 64.8,
+    "stop": 65.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_35",
+    "start": 66.8,
+    "stop": 67.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_36",
+    "start": 68.8,
+    "stop": 69.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_37",
+    "start": 70.8,
+    "stop": 71.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_38",
+    "start": 72.8,
+    "stop": 73.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_39",
+    "start": 74.8,
+    "stop": 75.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_40",
+    "start": 76.8,
+    "stop": 77.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_41",
+    "start": 78.8,
+    "stop": 79.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_42",
+    "start": 80.8,
+    "stop": 81.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_43",
+    "start": 82.8,
+    "stop": 83.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_44",
+    "start": 84.8,
+    "stop": 85.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_45",
+    "start": 86.8,
+    "stop": 87.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_46",
+    "start": 88.8,
+    "stop": 89.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_47",
+    "start": 90.8,
+    "stop": 91.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_48",
+    "start": 92.8,
+    "stop": 93.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_49",
+    "start": 94.8,
+    "stop": 95.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_50",
+    "start": 96.8,
+    "stop": 97.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_51",
+    "start": 98.8,
+    "stop": 99.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_52",
+    "start": 100.8,
+    "stop": 101.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_53",
+    "start": 102.8,
+    "stop": 103.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_54",
+    "start": 104.8,
+    "stop": 105.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_55",
+    "start": 106.8,
+    "stop": 107.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  },
+  {
+    "id": "negative_56",
+    "start": 116.8,
+    "stop": 117.2,
+    "expected": "fail",
+    "source": "simulated_from_GT_geometry_open_intervals"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "review_passed": true,
+  "reviewed_utc": "2026-10-21T09:59:45.540730+00:00",
+  "source_sha256": {
+    "feedback_v2.py": "92fe9e72a98cdd4c53ab02d942a7612339caef1256ad51324f9ed35fbec3c6cc",
+    "test_feedback_v2.py": "aefe44903cea7b4a059dbce8d116c70e28c2c3516c164d08c10c4f70f1d9dbca",
+    "train_feedback_v2.py": "3cea4ceb66bf4c1dc7c36c161b40de627109e1fee1becde501783bb42f3923ab",
+    "v2_cache.py": "f9e0fd6290826f5e7ff8c6766e3084c7eed60414b4bb7a32e7b3b379586fad47",
+    "run_feedback_v2.py": "b8fd876f35147d080c7219c76ce4ac1c47ccf11f93345fe534ea911bbcad9218",
+    "eval_feedback_v2.py": "efd32a1b22c98dc86223c1f6d85216cccad32d3f5b4ab079813f67a60bad7d3d",
+    "continue_v2_experiment.py": "83f161cc3d79853d7bd889e47491b9fd93a77f146cc9cacee185f8f8108f79c3"
+  },
+  "evidence": {
+    "model_cpu_tests_passed": 6,
+    "adapter_validation": "valid v2 accepted; v1, missing/NaN/bool bounds and changed selected weights rejected",
+    "training_cpu_smoke": "nonfinite candidate W/event rejected; stale baseline rejected; float64 timestamp shift leaves velocity loss unchanged; gap/window checks passed",
+    "driver_duplicate": "second instance rejected without changing active status"
+  },
+  "reviews": {
+    "model_and_adapters": "Sol xhigh read-only review; identified issues fixed",
+    "training_cache_and_driver": "Astra high read-only review; three training issues and duplicate-driver issue fixed"
+  },
+  "integration_checks_pending": [
+    "complete actual feature cache",
+    "actual zero-v2 vs single-TWM equivalence on calibration cache",
+    "1500-step finite visual-only optimization",
+    "calibration qualification",
+    "frozen final test"
+  ]
+}

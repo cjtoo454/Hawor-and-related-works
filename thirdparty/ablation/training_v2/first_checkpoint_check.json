@@ -1,0 +1,8 @@
+{
+  "checkpoint": "/home/user/HaWoR/thirdparty/ablation/training_v2/checkpoints/latest.pt",
+  "architecture": "handloop_v2",
+  "stage": "motion_pretrain",
+  "global_step": 50,
+  "parameters": 12917680,
+  "strict_twm_load": "passed"
+}

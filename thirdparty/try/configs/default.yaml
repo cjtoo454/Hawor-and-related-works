@@ -1,0 +1,24 @@
+model:
+  state_dim: 109
+  feature_dim: 64
+  evidence_dim: 128
+  hidden_dim: 256
+  history_length: 16
+  correction_steps: 2
+  image_size: 256
+  intra_frame_reobserve: true
+  corrected_state_feedback: true
+  quality_decay_on_missing: 0.92
+  min_trace_quality: 0.20
+
+runtime:
+  fps: 30.0
+  hand: right
+  slam_interval: 1000
+  device: cuda
+
+output:
+  prediction_filename: try_predictions.npz
+  trace_filename: physical_state_trace.npz
+  metadata_filename: try_inference.json
+

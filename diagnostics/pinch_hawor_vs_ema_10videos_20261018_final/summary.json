@@ -1,0 +1,232 @@
+{
+  "methods": {
+    "HaWoR": {
+      "tp": 37,
+      "fp": 142,
+      "fn": 54,
+      "reference_events": 91,
+      "predicted_events": 179,
+      "precision": 0.20670391061452514,
+      "recall": 0.4065934065934066,
+      "f1": 0.2740740740740741,
+      "onset_mae_ms": 61.23742181081079,
+      "onset_bias_ms": -30.606130135134578,
+      "onset_p95_absolute_error_ms": 140.0015896000069,
+      "short_reference_events": 41,
+      "short_matched_events": 17,
+      "short_event_recall": 0.4146341463414634,
+      "window_decisions": {
+        "pass": {
+          "pass": 43,
+          "fail": 36,
+          "unknown": 12
+        },
+        "fail": {
+          "pass": 23,
+          "fail": 470,
+          "unknown": 54
+        }
+      },
+      "auxiliary_accel_error_m_s2": 5.503331399096319,
+      "auxiliary_accel_samples": 34213
+    },
+    "HaWoR + Temporal Filter": {
+      "tp": 34,
+      "fp": 111,
+      "fn": 57,
+      "reference_events": 91,
+      "predicted_events": 145,
+      "precision": 0.23448275862068965,
+      "recall": 0.37362637362637363,
+      "f1": 0.288135593220339,
+      "onset_mae_ms": 64.67861291176625,
+      "onset_bias_ms": 21.544165794118648,
+      "onset_p95_absolute_error_ms": 178.3243595499996,
+      "short_reference_events": 41,
+      "short_matched_events": 16,
+      "short_event_recall": 0.3902439024390244,
+      "window_decisions": {
+        "pass": {
+          "pass": 42,
+          "fail": 36,
+          "unknown": 13
+        },
+        "fail": {
+          "pass": 20,
+          "fail": 474,
+          "unknown": 53
+        }
+      },
+      "auxiliary_accel_error_m_s2": 2.3155136995215706,
+      "auxiliary_accel_samples": 34213
+    }
+  },
+  "num_videos": 10,
+  "coverage": [
+    {
+      "sequence": "P0001_a68492d5",
+      "frames": 3714,
+      "reference_valid_frames": 3679,
+      "predicted_valid_frames": 3223,
+      "common_frames": 3223,
+      "reference_events": 1,
+      "reference_onsets_without_prediction": 0
+    },
+    {
+      "sequence": "P0001_9b6feab7",
+      "frames": 3776,
+      "reference_valid_frames": 3130,
+      "predicted_valid_frames": 2619,
+      "common_frames": 2619,
+      "reference_events": 17,
+      "reference_onsets_without_prediction": 1
+    },
+    {
+      "sequence": "P0014_8254f925",
+      "frames": 4102,
+      "reference_valid_frames": 4089,
+      "predicted_valid_frames": 3810,
+      "common_frames": 3810,
+      "reference_events": 5,
+      "reference_onsets_without_prediction": 0
+    },
+    {
+      "sequence": "P0011_76ea6d47",
+      "frames": 3874,
+      "reference_valid_frames": 3837,
+      "predicted_valid_frames": 3648,
+      "common_frames": 3648,
+      "reference_events": 3,
+      "reference_onsets_without_prediction": 0
+    },
+    {
+      "sequence": "P0014_84ea2dcc",
+      "frames": 4439,
+      "reference_valid_frames": 4439,
+      "predicted_valid_frames": 4413,
+      "common_frames": 4413,
+      "reference_events": 9,
+      "reference_onsets_without_prediction": 0
+    },
+    {
+      "sequence": "P0001_8d136980",
+      "frames": 3797,
+      "reference_valid_frames": 3783,
+      "predicted_valid_frames": 3394,
+      "common_frames": 3394,
+      "reference_events": 18,
+      "reference_onsets_without_prediction": 4
+    },
+    {
+      "sequence": "P0012_476bae57",
+      "frames": 3549,
+      "reference_valid_frames": 3450,
+      "predicted_valid_frames": 2845,
+      "common_frames": 2845,
+      "reference_events": 9,
+      "reference_onsets_without_prediction": 2
+    },
+    {
+      "sequence": "P0012_130a66e1",
+      "frames": 3665,
+      "reference_valid_frames": 3645,
+      "predicted_valid_frames": 3468,
+      "common_frames": 3468,
+      "reference_events": 6,
+      "reference_onsets_without_prediction": 0
+    },
+    {
+      "sequence": "P0014_24cb3bf0",
+      "frames": 4064,
+      "reference_valid_frames": 4059,
+      "predicted_valid_frames": 3607,
+      "common_frames": 3607,
+      "reference_events": 4,
+      "reference_onsets_without_prediction": 2
+    },
+    {
+      "sequence": "P0010_1c9fe708",
+      "frames": 3602,
+      "reference_valid_frames": 3602,
+      "predicted_valid_frames": 3477,
+      "common_frames": 3477,
+      "reference_events": 19,
+      "reference_onsets_without_prediction": 0
+    }
+  ],
+  "reference_type": "GT-geometry-derived pinch proxy; not human annotation or software ground truth",
+  "protocol_sha256": "f62cba1337a0af9acf2e07ab878eaa6e1356539e522e61d7556b724d02e482fd",
+  "source_files": [
+    {
+      "sequence": "P0001_a68492d5",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0001_a68492d5/evaluation_details.npz",
+      "prediction_sha256": "a5831b5edbc395bb231d7b88598b88e85ca65f4a44404f8d1197ead5347654f0",
+      "annotation_sha256": "792f2269210add844e6d5d9f1b195128bbe63113aee6d8d2a4169db045c9abac",
+      "timestamps_sha256": "b8a82d500fa2a25d760ea9a9d435e3b66ea0f3be7cf0dc4a319e81cf45db8c13"
+    },
+    {
+      "sequence": "P0001_9b6feab7",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0001_9b6feab7/evaluation_details.npz",
+      "prediction_sha256": "502e04c5bc29b7e8a11e4e2055de9fbc9cf585de6a1834ce3e98c8c4bc3baa2d",
+      "annotation_sha256": "aa08d34aae77428d30fc8ef4b0e0a82795d8a5ebee6c703ec7b88f499920ebaf",
+      "timestamps_sha256": "7fc87f06692caae38858136aa3aaa57b55d55eb8ff68548241e08daea8c8d6de"
+    },
+    {
+      "sequence": "P0014_8254f925",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0014_8254f925/evaluation_details.npz",
+      "prediction_sha256": "9c48c96efbe9c31cdef80137c5ab50aaa982b86ee31c61c87f4a4378fccd03b1",
+      "annotation_sha256": "1ed5459901a9e641df5f4689d5b5f13565ac0dfffc415e42901ee54f0107db92",
+      "timestamps_sha256": "5241956e1d9092f27693f320f8919bda565954da5c6f59e0e1e689f0393b9689"
+    },
+    {
+      "sequence": "P0011_76ea6d47",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0011_76ea6d47/evaluation_details.npz",
+      "prediction_sha256": "c9d3744b6042705fae5e6b6304f7b39fc5041ba8a805a5530c02da430a175ff9",
+      "annotation_sha256": "1c4b670ccead773927504e8c12bd8130b94899ce6d931c51ae74862a1ceab436",
+      "timestamps_sha256": "71d0ef420640d81cff474f61ba75674000d7f61a0bb05076683ce3d1fd296843"
+    },
+    {
+      "sequence": "P0014_84ea2dcc",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0014_84ea2dcc/evaluation_details.npz",
+      "prediction_sha256": "f0def5c488b4d69d9ea27f304516812bcd710f2c89cf036b0ec3f2e56248b7de",
+      "annotation_sha256": "ceaafeed7ed1ce85fa4d90aaa729f79ebd5fce0d316c48e1fb8fef0429908fe2",
+      "timestamps_sha256": "56588441973f4ec0730ce0adc0bea4cc41d3f64d0542e17d48713cb6436b7170"
+    },
+    {
+      "sequence": "P0001_8d136980",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0001_8d136980/evaluation_details.npz",
+      "prediction_sha256": "3504a3d376244c7801cc1faadbe0a5a29497f4d4d037ce9fc4d1a0066e38fbf1",
+      "annotation_sha256": "2f5a562da95966794f900b7ad3877a5bfd84c4bf4e0f0e2b913eeff7fb05f10d",
+      "timestamps_sha256": "b6e840c556c93126ffa480db39068e6a2d4340f6954907e10ff35f3a8c911068"
+    },
+    {
+      "sequence": "P0012_476bae57",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0012_476bae57/evaluation_details.npz",
+      "prediction_sha256": "2ca2cdb720c38feb379ee636649be345c9ffa747afe1f22067b428b3b57ac225",
+      "annotation_sha256": "e2a27f0e532f9e7117121dffa6698288c2eee8f6b2729362ec73741abd8a3be1",
+      "timestamps_sha256": "d089d1d54b5825d758f85cb06909102c78baf91b1e5e80aee462f2f537e0f22d"
+    },
+    {
+      "sequence": "P0012_130a66e1",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0012_130a66e1/evaluation_details.npz",
+      "prediction_sha256": "2691516777eb81c72a5821cc8dc28c7155878fbb758bcf7dcbb300b39cbc41b6",
+      "annotation_sha256": "041a4693cf119b8c93580c5362d72587badf2de6679f62f65e5d093766783391",
+      "timestamps_sha256": "7095d0e91bd6d40f9127d468ec744951b39c240dde9ebfe2a1f54df9b9f2ac96"
+    },
+    {
+      "sequence": "P0014_24cb3bf0",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0014_24cb3bf0/evaluation_details.npz",
+      "prediction_sha256": "86efbff66ef9d51a7051b84a41036cda7411b75b8acafadd6ba51a161ea808c0",
+      "annotation_sha256": "fbffc86fbb5a54b69f5223e940f149c3ed561af8e70fb498e79e83382847acee",
+      "timestamps_sha256": "db054d7285766617d35cc5ef656388094970966c42ae0f59634c225cebcafa70"
+    },
+    {
+      "sequence": "P0010_1c9fe708",
+      "prediction_details": "/home/user/HaWoR/eval_log/P0010_1c9fe708/evaluation_details.npz",
+      "prediction_sha256": "781577dfd579f2884ada213e5996e44bef88c0018d910d83ac03aa5a607b6169",
+      "annotation_sha256": "03592a5f457f34ea3a7acbe2c83c3c8d77da27c3a0c9abf237ac02bb22787a04",
+      "timestamps_sha256": "e15e5738c6e4dbb633d12cef695a87af32c1b12a4a422e0adbe9895845c5a328"
+    }
+  ],
+  "software_windows_source": "synthetic positive/negative controls derived from GT geometry; not real software logs"
+}

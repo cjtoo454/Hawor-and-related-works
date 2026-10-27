@@ -77,3 +77,22 @@ ipython_config.py
 
 vis.mp4
 imgui.ini
+
+# Local environments, credentials, backups, and runtime artifacts
+/.env/
+/.venv/
+.env
+.env.*
+!.env.example
+*.~*~
+/core
+/core.*
+.pytest_cache/
+*.pyc
+*.pt
+*.ckpt
+*.safetensors
+**/checkpoints/
+**/runs/
+**/cache/
+/thirdparty/DROID-SLAM/weights/

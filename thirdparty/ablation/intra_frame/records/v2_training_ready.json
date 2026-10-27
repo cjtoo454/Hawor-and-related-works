@@ -1,0 +1,57 @@
+{
+  "review_passed": true,
+  "reviewed_utc": "2026-10-21T10:12:21.708619+00:00",
+  "source_sha256": {
+    "feedback_v2.py": "92fe9e72a98cdd4c53ab02d942a7612339caef1256ad51324f9ed35fbec3c6cc",
+    "test_feedback_v2.py": "aefe44903cea7b4a059dbce8d116c70e28c2c3516c164d08c10c4f70f1d9dbca",
+    "train_feedback_v2.py": "8b6d7fb1bb41143ba1862dd594f2c73b9675345d0f6dbb6dfb37a1733eebfa7c",
+    "v2_cache.py": "f9e0fd6290826f5e7ff8c6766e3084c7eed60414b4bb7a32e7b3b379586fad47",
+    "run_feedback_v2.py": "b8fd876f35147d080c7219c76ce4ac1c47ccf11f93345fe534ea911bbcad9218",
+    "eval_feedback_v2.py": "efd32a1b22c98dc86223c1f6d85216cccad32d3f5b4ab079813f67a60bad7d3d",
+    "continue_v2_experiment.py": "83f161cc3d79853d7bd889e47491b9fd93a77f146cc9cacee185f8f8108f79c3"
+  },
+  "evidence": {
+    "model_cpu_tests_passed": 6,
+    "adapter_validation": "valid v2 accepted; v1, missing/NaN/bool bounds and changed selected weights rejected",
+    "training_cpu_smoke": "nonfinite candidate W/event rejected; stale baseline rejected; float64 timestamp shift leaves velocity loss unchanged; gap/window checks passed",
+    "driver_duplicate": "second instance rejected without changing active status",
+    "real_16frame_training_smoke": {
+      "passed": true,
+      "source_context": "/home/user/HaWoR/thirdparty/ablation/intra_frame/runs/feedback_v2_train/cache/train/P0002_016222d1/ctx_000192.inputs.pt",
+      "split": "train",
+      "frames": 16,
+      "base_twm_sha256": "26078e9b5d587f38130d51316dad90b598d4a426dbc312f8db2360eb0d9a0ab2",
+      "base_hawor_sha256": "4d1cc43853c190d6f2c10d9b6295c73109f0faf9ef41ac817a2b31d94b4823f2",
+      "zero_v2_vs_one_twm_max_abs_state_difference": 1.1920928955078125e-07,
+      "metrics": {
+        "loss": 0.7481110692024231,
+        "joint_m": 0.02136584371328354,
+        "current_nll": 1506.52783203125,
+        "relative_joint_m": 0.0168484915047884,
+        "joint_velocity_smooth_l1_mps": 0.02034926600754261,
+        "pinch_distance_smooth_l1": 0.001977035542950034,
+        "pinch_contact_bce": 0.004412950947880745,
+        "valid_frames": 16
+      },
+      "loss": 0.7481110692024231,
+      "gradient_norm": 56.2080192565918,
+      "frozen_weights_unchanged": true,
+      "peak_cuda_allocated_gb": 7.101508096,
+      "elapsed_seconds": 24.773962246719748,
+      "note": "Isolated discarded one-step integration smoke; these weights are not saved or used for selection/testing"
+    },
+    "memory_repair": "Frozen HaWoR CPU offload; TWM microbatch4 nonreentrant checkpoint; complete context/loss preserved; balance_loss approximation excluded from objective"
+  },
+  "reviews": {
+    "model_and_adapters": "Sol xhigh read-only review; identified issues fixed",
+    "training_cache_and_driver": "Astra high read-only review; three training issues and duplicate-driver issue fixed",
+    "training_memory_repair": "Astra high read-only re-review passed; actual smoke evidence reused"
+  },
+  "integration_checks_pending": [
+    "complete actual feature cache",
+    "actual zero-v2 vs single-TWM equivalence across calibration cache",
+    "1500-step finite visual-only optimization",
+    "calibration qualification",
+    "frozen final test"
+  ]
+}

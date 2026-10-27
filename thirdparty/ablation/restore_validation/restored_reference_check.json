@@ -1,0 +1,75 @@
+{
+  "videos": [
+    {
+      "sequence": "P0001_a68492d5",
+      "frames": 3714,
+      "compared_frames": 3223,
+      "max_absolute_coordinate_difference_m": 8.940696716308594e-08,
+      "reference_matches": true
+    },
+    {
+      "sequence": "P0001_9b6feab7",
+      "frames": 3776,
+      "compared_frames": 2619,
+      "max_absolute_coordinate_difference_m": 1.1920928955078125e-07,
+      "reference_matches": true
+    },
+    {
+      "sequence": "P0014_8254f925",
+      "frames": 4102,
+      "compared_frames": 3810,
+      "max_absolute_coordinate_difference_m": 8.940696716308594e-08,
+      "reference_matches": true
+    },
+    {
+      "sequence": "P0011_76ea6d47",
+      "frames": 3874,
+      "compared_frames": 3648,
+      "max_absolute_coordinate_difference_m": 5.960464477539063e-08,
+      "reference_matches": true
+    },
+    {
+      "sequence": "P0014_84ea2dcc",
+      "frames": 4439,
+      "compared_frames": 4413,
+      "max_absolute_coordinate_difference_m": 7.450580596923828e-08,
+      "reference_matches": true
+    },
+    {
+      "sequence": "P0001_8d136980",
+      "frames": 3797,
+      "compared_frames": 3394,
+      "max_absolute_coordinate_difference_m": 1.1920928955078125e-07,
+      "reference_matches": true
+    },
+    {
+      "sequence": "P0012_476bae57",
+      "frames": 3549,
+      "compared_frames": 2845,
+      "max_absolute_coordinate_difference_m": 1.1920928955078125e-07,
+      "reference_matches": true
+    },
+    {
+      "sequence": "P0012_130a66e1",
+      "frames": 3665,
+      "compared_frames": 3468,
+      "max_absolute_coordinate_difference_m": 1.1920928955078125e-07,
+      "reference_matches": true
+    },
+    {
+      "sequence": "P0014_24cb3bf0",
+      "frames": 4064,
+      "compared_frames": 3607,
+      "max_absolute_coordinate_difference_m": 7.450580596923828e-08,
+      "reference_matches": true
+    },
+    {
+      "sequence": "P0010_1c9fe708",
+      "frames": 3602,
+      "compared_frames": 3477,
+      "max_absolute_coordinate_difference_m": 1.1920928955078125e-07,
+      "reference_matches": true
+    }
+  ],
+  "all_reference_matches": true
+}

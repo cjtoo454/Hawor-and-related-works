@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dual-loop-state-reconciliation"
+version = "0.1.0"
+description = "Dual-loop physical state observer for hand-video software testing"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "torch",
+  "opencv-python",
+  "joblib",
+  "matplotlib",
+  "PyYAML",
+  "scipy",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dual_loop*"]
+

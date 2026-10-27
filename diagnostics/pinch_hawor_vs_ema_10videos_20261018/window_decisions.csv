@@ -1,0 +1,1277 @@
+sequence,method,id,start,stop,expected,source,decision
+P0001_a68492d5,HaWoR,positive_0,59.533281413,59.933281413,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_a68492d5,HaWoR,negative_1,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR,negative_2,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_3,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_4,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_5,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_6,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_7,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_8,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_9,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_10,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_11,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_12,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_13,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_14,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_15,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_16,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_17,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_18,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR,negative_19,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_20,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_21,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_22,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_23,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_24,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_25,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_26,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_27,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_28,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_29,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_30,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR,negative_31,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR,negative_32,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR,negative_33,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_34,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR,negative_35,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR,negative_36,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_37,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR,negative_38,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_39,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_40,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_41,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_42,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_43,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_44,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_45,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_46,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_47,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_48,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_49,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_50,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_51,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_52,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_53,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_54,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_55,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_56,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_57,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_58,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR,negative_59,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,positive_0,59.533281413,59.933281413,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_a68492d5,HaWoR + Temporal Filter,negative_1,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR + Temporal Filter,negative_2,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_3,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_4,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_5,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_6,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_7,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_8,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_9,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_10,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_11,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_12,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_13,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_14,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_15,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_16,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_17,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_18,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR + Temporal Filter,negative_19,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_20,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_21,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_22,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_23,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_24,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_25,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_26,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_27,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_28,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_29,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_30,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR + Temporal Filter,negative_31,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR + Temporal Filter,negative_32,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR + Temporal Filter,negative_33,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_34,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_35,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR + Temporal Filter,negative_36,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_37,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_a68492d5,HaWoR + Temporal Filter,negative_38,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_39,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_40,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_41,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_42,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_43,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_44,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_45,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_46,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_47,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_48,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_49,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_50,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_51,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_52,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_53,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_54,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_55,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_56,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_57,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_58,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_a68492d5,HaWoR + Temporal Filter,negative_59,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,positive_0,2.4332621939999997,2.833262194,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,positive_1,3.199952244,3.5999522440000002,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR,positive_2,4.93329213,5.33329213,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR,positive_3,11.066620616000002,11.466620616,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,positive_4,14.933295532,15.333295532,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,positive_5,35.133276536,35.533276536,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_9b6feab7,HaWoR,positive_6,45.666680617,46.066680617,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR,positive_7,46.266623190999994,46.666623191,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,positive_8,47.233261815,47.633261815000004,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,positive_9,59.299944196999995,59.699944197,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,positive_10,59.76666881,60.166668810000004,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR,positive_11,69.800004475,70.200004475,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,positive_12,99.70000534399999,100.100005344,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,positive_13,100.79999837599999,101.199998376,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR,positive_14,101.099946076,101.499946076,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,positive_15,102.399933315,102.799933315,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR,positive_16,103.599941378,103.999941378,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR,negative_17,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_18,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_19,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_20,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_21,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_22,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR,negative_23,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_24,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_25,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR,negative_26,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR,negative_27,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_28,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR,negative_29,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_30,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR,negative_31,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR,negative_32,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_33,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_34,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR,negative_35,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR,negative_36,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_37,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR,negative_38,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_39,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_40,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_41,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_42,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_43,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR,negative_44,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR,negative_45,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR,negative_46,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR,negative_47,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_48,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_49,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_50,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_51,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_52,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_53,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_54,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR,negative_55,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR,negative_56,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_0,2.4332621939999997,2.833262194,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_1,3.199952244,3.5999522440000002,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_2,4.93329213,5.33329213,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_3,11.066620616000002,11.466620616,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_4,14.933295532,15.333295532,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_5,35.133276536,35.533276536,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_6,45.666680617,46.066680617,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_7,46.266623190999994,46.666623191,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_8,47.233261815,47.633261815000004,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_9,59.299944196999995,59.699944197,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_10,59.76666881,60.166668810000004,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_11,69.800004475,70.200004475,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_12,99.70000534399999,100.100005344,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_13,100.79999837599999,101.199998376,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_14,101.099946076,101.499946076,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_15,102.399933315,102.799933315,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,positive_16,103.599941378,103.999941378,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_17,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_18,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_19,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_20,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_21,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_22,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_23,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_24,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_25,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_26,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_27,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_28,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_29,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_30,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_31,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_32,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_33,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_34,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_35,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_36,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_37,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_38,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_39,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_40,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_41,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_42,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_43,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_44,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_45,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_46,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_47,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_48,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_49,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_50,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_51,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_52,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_53,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_54,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_55,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_9b6feab7,HaWoR + Temporal Filter,negative_56,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR,positive_0,21.300046017,21.700046017,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_8254f925,HaWoR,positive_1,38.066704457,38.466704457000006,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_8254f925,HaWoR,positive_2,93.733449108,94.13344910800001,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_8254f925,HaWoR,positive_3,99.300052049,99.700052049,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_8254f925,HaWoR,positive_4,107.166709091,107.566709091,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_8254f925,HaWoR,negative_5,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_6,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_7,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_8,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_9,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_10,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_11,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_12,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_8254f925,HaWoR,negative_13,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_14,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_8254f925,HaWoR,negative_15,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_16,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_17,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_18,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_19,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_20,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_21,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_22,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_23,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_8254f925,HaWoR,negative_24,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_25,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR,negative_26,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_27,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR,negative_28,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_29,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_30,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_31,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_32,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_33,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR,negative_34,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_35,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_36,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_37,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_38,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_39,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR,negative_40,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_41,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_42,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_43,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_44,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_45,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_46,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_47,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_48,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR,negative_49,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_50,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_51,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_52,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_53,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_54,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_55,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_56,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_57,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_58,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_59,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_60,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_61,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_62,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_63,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_64,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_65,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR,negative_66,124.8,125.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR,negative_67,126.8,127.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR,negative_68,128.8,129.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_69,130.8,131.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR,negative_70,132.8,133.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_8254f925,HaWoR,negative_71,134.8,135.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,positive_0,21.300046017,21.700046017,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_8254f925,HaWoR + Temporal Filter,positive_1,38.066704457,38.466704457000006,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_8254f925,HaWoR + Temporal Filter,positive_2,93.733449108,94.13344910800001,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_8254f925,HaWoR + Temporal Filter,positive_3,99.300052049,99.700052049,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_8254f925,HaWoR + Temporal Filter,positive_4,107.166709091,107.566709091,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_8254f925,HaWoR + Temporal Filter,negative_5,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_6,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_7,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_8,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_9,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_10,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_11,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_12,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_8254f925,HaWoR + Temporal Filter,negative_13,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_14,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_15,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_16,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_17,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_18,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_19,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_20,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_21,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_22,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_23,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_24,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_25,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR + Temporal Filter,negative_26,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_27,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR + Temporal Filter,negative_28,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_29,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_30,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_31,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_32,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_33,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR + Temporal Filter,negative_34,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_35,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_36,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_37,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_38,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_39,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR + Temporal Filter,negative_40,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_41,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_42,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_43,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_44,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_45,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_46,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_47,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_48,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR + Temporal Filter,negative_49,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_50,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_51,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_52,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_53,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_54,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_55,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_56,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_57,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_58,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_59,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_60,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_61,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_62,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_63,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_64,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_65,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR + Temporal Filter,negative_66,124.8,125.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR + Temporal Filter,negative_67,126.8,127.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_8254f925,HaWoR + Temporal Filter,negative_68,128.8,129.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_69,130.8,131.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_8254f925,HaWoR + Temporal Filter,negative_70,132.8,133.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_8254f925,HaWoR + Temporal Filter,negative_71,134.8,135.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,positive_0,78.400044849,78.800044849,pass,simulated_from_GT_geometry_reference_onset,pass
+P0011_76ea6d47,HaWoR,positive_1,78.933338783,79.333338783,pass,simulated_from_GT_geometry_reference_onset,pass
+P0011_76ea6d47,HaWoR,positive_2,84.466660204,84.866660204,pass,simulated_from_GT_geometry_reference_onset,fail
+P0011_76ea6d47,HaWoR,negative_3,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_4,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_5,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_6,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_7,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0011_76ea6d47,HaWoR,negative_8,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_9,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_10,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_11,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_12,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_13,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_14,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_15,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_16,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_17,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_18,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_19,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_20,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_21,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_22,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_23,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_24,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_25,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_26,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_27,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0011_76ea6d47,HaWoR,negative_28,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_29,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_30,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_31,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_32,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_33,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_34,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_35,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_36,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_37,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_38,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_39,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_40,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_41,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_42,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0011_76ea6d47,HaWoR,negative_43,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_44,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_45,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_46,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_47,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_48,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_49,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_50,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_51,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_52,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_53,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_54,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_55,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_56,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0011_76ea6d47,HaWoR,negative_57,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0011_76ea6d47,HaWoR,negative_58,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_59,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_60,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_61,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0011_76ea6d47,HaWoR,negative_62,124.8,125.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_63,126.8,127.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR,negative_64,128.8,129.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,positive_0,78.400044849,78.800044849,pass,simulated_from_GT_geometry_reference_onset,pass
+P0011_76ea6d47,HaWoR + Temporal Filter,positive_1,78.933338783,79.333338783,pass,simulated_from_GT_geometry_reference_onset,pass
+P0011_76ea6d47,HaWoR + Temporal Filter,positive_2,84.466660204,84.866660204,pass,simulated_from_GT_geometry_reference_onset,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_3,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_4,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_5,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_6,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_7,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_8,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_9,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_10,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_11,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_12,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_13,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_14,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_15,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_16,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_17,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_18,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_19,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_20,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_21,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_22,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_23,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_24,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_25,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_26,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_27,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_28,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_29,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_30,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_31,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_32,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_33,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_34,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_35,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_36,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_37,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_38,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_39,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_40,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_41,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_42,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_43,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_44,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_45,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_46,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_47,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_48,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_49,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_50,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_51,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_52,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_53,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_54,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_55,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_56,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_57,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_58,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_59,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_60,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_61,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_62,124.8,125.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_63,126.8,127.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0011_76ea6d47,HaWoR + Temporal Filter,negative_64,128.8,129.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,positive_0,19.933317955,20.333317955,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_84ea2dcc,HaWoR,positive_1,47.233306619,47.633306619,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_84ea2dcc,HaWoR,positive_2,100.73330178399999,101.133301784,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_84ea2dcc,HaWoR,positive_3,101.833322383,102.233322383,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR,positive_4,102.79996758499999,103.199967585,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR,positive_5,104.533320285,104.93332028500001,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR,positive_6,104.79997886299999,105.199978863,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR,positive_7,138.23330750300002,138.633307503,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR,positive_8,138.76665546700002,139.166655467,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR,negative_9,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_10,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_11,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_12,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_13,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_14,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_15,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_16,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_17,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_18,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_19,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_20,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_21,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_22,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_23,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_24,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_25,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_26,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_27,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_28,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_29,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_30,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_31,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_32,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_33,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_84ea2dcc,HaWoR,negative_34,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_35,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_84ea2dcc,HaWoR,negative_36,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_37,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_38,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_39,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_40,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_41,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_42,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_43,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_44,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_45,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_46,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_47,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_48,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_49,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_50,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_51,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_52,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_53,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_54,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_55,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_56,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_84ea2dcc,HaWoR,negative_57,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_58,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_84ea2dcc,HaWoR,negative_59,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_60,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_61,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_62,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_63,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_64,124.8,125.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_65,126.8,127.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_66,128.8,129.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_67,130.8,131.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_68,132.8,133.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_69,134.8,135.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_70,136.8,137.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_71,140.8,141.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_72,142.8,143.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_73,144.8,145.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR,negative_74,146.8,147.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,positive_0,19.933317955,20.333317955,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_84ea2dcc,HaWoR + Temporal Filter,positive_1,47.233306619,47.633306619,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_84ea2dcc,HaWoR + Temporal Filter,positive_2,100.73330178399999,101.133301784,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_84ea2dcc,HaWoR + Temporal Filter,positive_3,101.833322383,102.233322383,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,positive_4,102.79996758499999,103.199967585,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,positive_5,104.533320285,104.93332028500001,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,positive_6,104.79997886299999,105.199978863,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,positive_7,138.23330750300002,138.633307503,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,positive_8,138.76665546700002,139.166655467,pass,simulated_from_GT_geometry_reference_onset,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_9,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_10,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_11,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_12,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_13,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_14,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_15,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_16,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_17,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_18,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_19,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_20,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_21,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_22,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_23,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_24,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_25,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_26,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_27,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_28,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_29,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_30,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_31,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_32,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_33,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_34,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_35,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_36,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_37,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_38,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_39,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_40,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_41,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_42,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_43,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_44,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_45,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_46,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_47,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_48,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_49,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_50,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_51,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_52,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_53,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_54,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_55,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_56,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_57,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_58,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_59,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_60,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_61,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_62,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_63,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_64,124.8,125.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_65,126.8,127.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_66,128.8,129.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_67,130.8,131.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_68,132.8,133.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_69,134.8,135.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_70,136.8,137.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_71,140.8,141.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_72,142.8,143.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_73,144.8,145.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_84ea2dcc,HaWoR + Temporal Filter,negative_74,146.8,147.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,positive_0,14.433264652,14.833264651999999,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_1,16.466590295,16.866590294999998,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR,positive_2,21.366612208,21.766612207999998,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR,positive_3,21.666689799,22.066689799,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR,positive_4,26.133276818000002,26.533276818,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR,positive_5,26.733335049,27.133335049,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_8d136980,HaWoR,positive_6,29.033299634000002,29.433299634,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR,positive_7,46.066613362999995,46.466613363,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_8,47.366603635,47.766603635,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_9,58.567448022,58.967448022000006,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_10,59.299945711999996,59.699945712,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_11,74.533282551,74.933282551,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_8d136980,HaWoR,positive_12,84.933302809,85.333302809,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_13,90.76660602599999,91.166606026,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_14,98.233286353,98.633286353,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_15,98.83333234,99.23333234,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_16,101.13328145599999,101.533281456,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,positive_17,110.666680841,111.06668084100001,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR,negative_18,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_19,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_20,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_21,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_8d136980,HaWoR,negative_22,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_23,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_8d136980,HaWoR,negative_24,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_25,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_26,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_27,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_28,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_29,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_30,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_31,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_32,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_33,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_34,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_35,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_36,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_37,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_38,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_39,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_40,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_41,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_42,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_43,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0001_8d136980,HaWoR,negative_44,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_8d136980,HaWoR,negative_45,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_46,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_47,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_48,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_49,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_50,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_51,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_52,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_53,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR,negative_54,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,positive_0,14.433264652,14.833264651999999,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_1,16.466590295,16.866590294999998,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR + Temporal Filter,positive_2,21.366612208,21.766612207999998,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR + Temporal Filter,positive_3,21.666689799,22.066689799,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR + Temporal Filter,positive_4,26.133276818000002,26.533276818,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR + Temporal Filter,positive_5,26.733335049,27.133335049,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_8d136980,HaWoR + Temporal Filter,positive_6,29.033299634000002,29.433299634,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0001_8d136980,HaWoR + Temporal Filter,positive_7,46.066613362999995,46.466613363,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_8,47.366603635,47.766603635,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_9,58.567448022,58.967448022000006,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_10,59.299945711999996,59.699945712,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_11,74.533282551,74.933282551,pass,simulated_from_GT_geometry_reference_onset,fail
+P0001_8d136980,HaWoR + Temporal Filter,positive_12,84.933302809,85.333302809,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_13,90.76660602599999,91.166606026,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_14,98.233286353,98.633286353,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_15,98.83333234,99.23333234,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_16,101.13328145599999,101.533281456,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,positive_17,110.666680841,111.06668084100001,pass,simulated_from_GT_geometry_reference_onset,pass
+P0001_8d136980,HaWoR + Temporal Filter,negative_18,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_19,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_20,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_21,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_8d136980,HaWoR + Temporal Filter,negative_22,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_23,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_8d136980,HaWoR + Temporal Filter,negative_24,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_25,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_26,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_27,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_28,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_29,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_30,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_31,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_32,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_33,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_34,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_35,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_36,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_37,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_38,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_39,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_40,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_41,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_42,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_43,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_44,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0001_8d136980,HaWoR + Temporal Filter,negative_45,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_46,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_47,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_48,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_49,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_50,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_51,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_52,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_53,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0001_8d136980,HaWoR + Temporal Filter,negative_54,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,positive_0,1.9333339850000002,2.3333339850000003,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0012_476bae57,HaWoR,positive_1,3.366650951,3.7666509510000004,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0012_476bae57,HaWoR,positive_2,9.600009048,10.000009047999999,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_476bae57,HaWoR,positive_3,49.833385389,50.233385389000006,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0012_476bae57,HaWoR,positive_4,54.333321004999995,54.733321005,pass,simulated_from_GT_geometry_reference_onset,pass
+P0012_476bae57,HaWoR,positive_5,58.466684844999996,58.866684845,pass,simulated_from_GT_geometry_reference_onset,pass
+P0012_476bae57,HaWoR,positive_6,59.966653488,60.366653488000004,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_476bae57,HaWoR,positive_7,75.66672012299999,76.066720123,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_476bae57,HaWoR,positive_8,108.600831843,109.000831843,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_476bae57,HaWoR,negative_9,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR,negative_10,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_11,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_12,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_13,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_14,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_15,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_16,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_17,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_18,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_19,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR,negative_20,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_21,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_22,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_23,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_24,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_25,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_26,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_27,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_28,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_29,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR,negative_30,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0012_476bae57,HaWoR,negative_31,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_32,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_33,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_34,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR,negative_35,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_36,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_37,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_38,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR,negative_39,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR,negative_40,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_41,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_42,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_43,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_44,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_45,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR,negative_46,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_47,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_48,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_49,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_50,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR,negative_51,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_52,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_53,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR,negative_54,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR,negative_55,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0012_476bae57,HaWoR,negative_56,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,positive_0,1.9333339850000002,2.3333339850000003,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0012_476bae57,HaWoR + Temporal Filter,positive_1,3.366650951,3.7666509510000004,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0012_476bae57,HaWoR + Temporal Filter,positive_2,9.600009048,10.000009047999999,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_476bae57,HaWoR + Temporal Filter,positive_3,49.833385389,50.233385389000006,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0012_476bae57,HaWoR + Temporal Filter,positive_4,54.333321004999995,54.733321005,pass,simulated_from_GT_geometry_reference_onset,pass
+P0012_476bae57,HaWoR + Temporal Filter,positive_5,58.466684844999996,58.866684845,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_476bae57,HaWoR + Temporal Filter,positive_6,59.966653488,60.366653488000004,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_476bae57,HaWoR + Temporal Filter,positive_7,75.66672012299999,76.066720123,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_476bae57,HaWoR + Temporal Filter,positive_8,108.600831843,109.000831843,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_9,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,negative_10,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0012_476bae57,HaWoR + Temporal Filter,negative_11,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_12,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_13,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_14,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_15,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_16,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_17,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_18,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_19,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,negative_20,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_21,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_22,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_23,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_24,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_25,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_26,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_27,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_28,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_29,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,negative_30,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_31,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_32,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_33,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_34,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,negative_35,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_36,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_37,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_38,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,negative_39,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,negative_40,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_41,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_42,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_43,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_44,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_45,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,negative_46,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_47,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_48,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_49,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_50,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,negative_51,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_52,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_53,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_476bae57,HaWoR + Temporal Filter,negative_54,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_476bae57,HaWoR + Temporal Filter,negative_55,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0012_476bae57,HaWoR + Temporal Filter,negative_56,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_130a66e1,HaWoR,positive_0,14.33328708,14.733287079999998,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_130a66e1,HaWoR,positive_1,35.599941533,35.999941533000005,pass,simulated_from_GT_geometry_reference_onset,pass
+P0012_130a66e1,HaWoR,positive_2,69.233293783,69.633293783,pass,simulated_from_GT_geometry_reference_onset,pass
+P0012_130a66e1,HaWoR,positive_3,69.56661557299999,69.966615573,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_130a66e1,HaWoR,positive_4,70.666618703,71.066618703,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_130a66e1,HaWoR,positive_5,112.333279151,112.733279151,pass,simulated_from_GT_geometry_reference_onset,pass
+P0012_130a66e1,HaWoR,negative_6,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_7,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_8,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_9,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_10,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_11,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_12,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_13,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_14,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_15,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_16,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_17,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_18,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_19,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_20,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_21,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_22,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_23,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_24,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_25,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_26,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_27,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_28,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_29,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_30,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_31,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_32,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_33,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_34,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_35,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_36,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_37,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_38,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_39,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_40,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0012_130a66e1,HaWoR,negative_41,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_42,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0012_130a66e1,HaWoR,negative_43,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_130a66e1,HaWoR,negative_44,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_45,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_46,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_47,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_48,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_49,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_50,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_51,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_52,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_53,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_54,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_55,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_56,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_130a66e1,HaWoR,negative_57,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_130a66e1,HaWoR,negative_58,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_130a66e1,HaWoR,negative_59,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_60,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_61,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_62,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR,negative_63,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,positive_0,14.33328708,14.733287079999998,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_130a66e1,HaWoR + Temporal Filter,positive_1,35.599941533,35.999941533000005,pass,simulated_from_GT_geometry_reference_onset,pass
+P0012_130a66e1,HaWoR + Temporal Filter,positive_2,69.233293783,69.633293783,pass,simulated_from_GT_geometry_reference_onset,pass
+P0012_130a66e1,HaWoR + Temporal Filter,positive_3,69.56661557299999,69.966615573,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_130a66e1,HaWoR + Temporal Filter,positive_4,70.666618703,71.066618703,pass,simulated_from_GT_geometry_reference_onset,fail
+P0012_130a66e1,HaWoR + Temporal Filter,positive_5,112.333279151,112.733279151,pass,simulated_from_GT_geometry_reference_onset,pass
+P0012_130a66e1,HaWoR + Temporal Filter,negative_6,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_7,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_8,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_9,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_10,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_11,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_12,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_13,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_14,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_15,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_16,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_17,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_18,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_19,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_20,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_21,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_22,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_23,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_24,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_25,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_26,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_27,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_28,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_29,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_30,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_31,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_32,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_33,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_34,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_35,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_36,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_37,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_38,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_39,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_40,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_41,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_42,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0012_130a66e1,HaWoR + Temporal Filter,negative_43,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_130a66e1,HaWoR + Temporal Filter,negative_44,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0012_130a66e1,HaWoR + Temporal Filter,negative_45,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_46,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_47,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_48,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_49,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_50,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_51,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_52,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_53,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_54,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_55,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_56,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_130a66e1,HaWoR + Temporal Filter,negative_57,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_130a66e1,HaWoR + Temporal Filter,negative_58,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0012_130a66e1,HaWoR + Temporal Filter,negative_59,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_60,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_61,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_62,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0012_130a66e1,HaWoR + Temporal Filter,negative_63,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,positive_0,19.766672383,20.166672382999998,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_24cb3bf0,HaWoR,positive_1,20.266685250000002,20.66668525,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0014_24cb3bf0,HaWoR,positive_2,21.633418784,22.033418784,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0014_24cb3bf0,HaWoR,positive_3,66.13334480099999,66.533344801,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_24cb3bf0,HaWoR,negative_4,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_5,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_6,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_7,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_8,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_9,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_10,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_11,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_12,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_13,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_14,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR,negative_15,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR,negative_16,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR,negative_17,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_18,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_19,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_20,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_21,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_22,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_23,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_24,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_25,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_26,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_27,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_28,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_29,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_30,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_31,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_32,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_33,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_34,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_35,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_36,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_37,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_38,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_39,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_40,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_41,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_42,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_43,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR,negative_44,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR,negative_45,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR,negative_46,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_47,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_48,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_49,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_50,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_51,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_52,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_53,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_54,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_55,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_56,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_57,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_58,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_59,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_60,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_61,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_62,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_63,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_64,124.8,125.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_65,126.8,127.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_66,128.8,129.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_67,130.8,131.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR,negative_68,132.8,133.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR,negative_69,134.8,135.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,positive_0,19.766672383,20.166672382999998,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,positive_1,20.266685250000002,20.66668525,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,positive_2,21.633418784,22.033418784,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,positive_3,66.13334480099999,66.533344801,pass,simulated_from_GT_geometry_reference_onset,pass
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_4,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_5,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_6,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_7,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_8,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_9,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_10,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_11,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_12,16.8,17.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_13,18.8,19.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_14,20.8,21.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_15,24.8,25.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_16,26.8,27.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_17,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_18,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_19,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_20,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_21,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_22,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_23,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_24,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_25,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_26,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_27,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_28,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_29,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_30,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_31,56.8,57.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_32,58.8,59.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_33,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_34,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_35,66.8,67.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_36,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_37,70.8,71.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_38,72.8,73.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_39,74.8,75.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_40,76.8,77.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_41,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_42,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_43,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_44,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_45,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_46,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_47,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_48,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_49,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_50,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_51,98.8,99.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_52,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_53,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_54,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_55,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_56,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_57,110.8,111.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_58,112.8,113.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_59,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_60,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_61,118.8,119.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_62,120.8,121.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_63,122.8,123.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_64,124.8,125.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_65,126.8,127.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_66,128.8,129.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_67,130.8,131.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_68,132.8,133.2,fail,simulated_from_GT_geometry_open_intervals,unknown
+P0014_24cb3bf0,HaWoR + Temporal Filter,negative_69,134.8,135.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,positive_0,5.26662038,5.66662038,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_1,16.733283921,17.133283921,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_2,18.566597449,18.966597448999998,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR,positive_3,19.266618411,19.666618410999998,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_4,24.766614335,25.166614335,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_5,26.599943972000002,26.999943972,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0010_1c9fe708,HaWoR,positive_6,55.333282896,55.733282896000006,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR,positive_7,55.599939854,55.999939854000004,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_8,57.966603907999996,58.366603908,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR,positive_9,70.033266846,70.43326684600001,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_10,70.79993808799999,71.199938088,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR,positive_11,76.366630294,76.76663029400001,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR,positive_12,94.33329415899999,94.733294159,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR,positive_13,97.89996062099999,98.299960621,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_14,98.43327398,98.83327398,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_15,107.69995379699999,108.099953797,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_16,112.099945537,112.499945537,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_17,118.93328085499999,119.333280855,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR,positive_18,119.29996009599999,119.699960096,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR,negative_19,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_20,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_21,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_22,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0010_1c9fe708,HaWoR,negative_23,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_24,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_25,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_26,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_27,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0010_1c9fe708,HaWoR,negative_28,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_29,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_30,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_31,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_32,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_33,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_34,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_35,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_36,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_37,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_38,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_39,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_40,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_41,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_42,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_43,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_44,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_45,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_46,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_47,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_48,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_49,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_50,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_51,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_52,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_53,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0010_1c9fe708,HaWoR,negative_54,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_55,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_56,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_57,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_58,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_59,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_60,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_61,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR,negative_62,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_0,5.26662038,5.66662038,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_1,16.733283921,17.133283921,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_2,18.566597449,18.966597448999998,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_3,19.266618411,19.666618410999998,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_4,24.766614335,25.166614335,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_5,26.599943972000002,26.999943972,pass,simulated_from_GT_geometry_reference_onset,unknown
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_6,55.333282896,55.733282896000006,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_7,55.599939854,55.999939854000004,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_8,57.966603907999996,58.366603908,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_9,70.033266846,70.43326684600001,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_10,70.79993808799999,71.199938088,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_11,76.366630294,76.76663029400001,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_12,94.33329415899999,94.733294159,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_13,97.89996062099999,98.299960621,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_14,98.43327398,98.83327398,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_15,107.69995379699999,108.099953797,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_16,112.099945537,112.499945537,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_17,118.93328085499999,119.333280855,pass,simulated_from_GT_geometry_reference_onset,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,positive_18,119.29996009599999,119.699960096,pass,simulated_from_GT_geometry_reference_onset,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_19,0.8,1.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_20,2.8,3.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_21,4.8,5.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_22,6.8,7.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_23,8.8,9.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_24,10.8,11.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_25,12.8,13.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_26,14.8,15.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_27,22.8,23.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_28,28.8,29.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_29,30.8,31.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_30,32.8,33.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_31,34.8,35.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_32,36.8,37.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_33,38.8,39.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_34,40.8,41.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_35,42.8,43.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_36,44.8,45.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_37,46.8,47.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_38,48.8,49.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_39,50.8,51.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_40,52.8,53.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_41,54.8,55.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_42,60.8,61.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_43,62.8,63.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_44,64.8,65.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_45,68.8,69.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_46,78.8,79.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_47,80.8,81.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_48,82.8,83.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_49,84.8,85.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_50,86.8,87.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_51,88.8,89.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_52,90.8,91.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_53,92.8,93.2,fail,simulated_from_GT_geometry_open_intervals,pass
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_54,94.8,95.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_55,96.8,97.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_56,100.8,101.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_57,102.8,103.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_58,104.8,105.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_59,106.8,107.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_60,108.8,109.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_61,114.8,115.2,fail,simulated_from_GT_geometry_open_intervals,fail
+P0010_1c9fe708,HaWoR + Temporal Filter,negative_62,116.8,117.2,fail,simulated_from_GT_geometry_open_intervals,fail

@@ -18,6 +18,9 @@ import cv2
 from tqdm import tqdm
 from glob import glob
 import pickle
+import matplotlib
+matplotlib.use('Agg')
+from matplotlib import pyplot as plt
 
 from lib.pipeline.tools import parse_chunks
 from lib.models.hawor import HAWOR
@@ -84,11 +87,13 @@ parser.add_argument("--set_file", type=str, default='val.json')
 parser.add_argument("--inference_stage", action="store_true")
 parser.add_argument("--gen_hand_mask", action="store_true")
 parser.add_argument("--eval_stage", action="store_true")
+parser.add_argument("--skip_existing_eval", action="store_true",
+                    help="Reuse complete per-video evaluation artifacts when present")
 parser.add_argument("--subset", action="store_true")
 parser.add_argument('--eval_log_dir', type=str, default="eval_log")
 args = parser.parse_args()
 
-if not args.eval_stage:
+if not args.eval_stage and not (args.gen_hand_mask and not args.inference_stage):
     model, model_cfg = load_hawor(args.checkpoint)
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     model = model.to(device)
@@ -107,6 +112,24 @@ print(testset)
 m2mm = 1e3
 accumulator = defaultdict(list)
 for video in testset:
+    result_dir = os.path.join(args.eval_log_dir, video)
+    summary_path = os.path.join(result_dir, 'evaluation_summary.json')
+    details_path = os.path.join(result_dir, 'evaluation_details.npz')
+    if args.eval_stage and args.skip_existing_eval \
+            and os.path.exists(summary_path) and os.path.exists(details_path):
+        with open(summary_path, 'r') as f:
+            summary = json.load(f)
+        details = np.load(details_path)
+        accumulator['w_mpjpe'].append(details['w_mpjpe_mm'])
+        accumulator['wa_mpjpe'].append(details['wa_mpjpe_mm'])
+        accumulator['pa_mpjpe'].append(details['pa_mpjpe_mm'])
+        accumulator['accel'].append(details['accel_m_s2'])
+        accumulator['RTE'].append(details['rte_percent'])
+        video_log = f"{video} {summary['w_mpjpe_mm']} {summary['wa_mpjpe_mm']}"
+        print(f"Reuse existing evaluation for {video}")
+        eval_log.write(video_log + "\n")
+        continue
+
     video_path = os.path.join(video_root, video, video+'.mp4')
     seq_folder = os.path.join(video_root, video, 'preprocess')
     img_folder = f"{video_root}/{video}/extracted_images"
@@ -201,10 +224,22 @@ for video in testset:
             [78, 108, 79]])
     faces_right = np.concatenate([faces, faces_new], axis=0)
     faces_left = faces_right[:,[0,2,1]]
+    faces_right_cuda = torch.from_numpy(faces_right).cuda()
+    faces_left_cuda = torch.from_numpy(faces_left).cuda()
+    cam_R = torch.eye(3).unsqueeze(0).cuda()
+    cam_T = torch.zeros(1, 3).cuda()
+    mask_cameras, mask_lights = renderer.create_camera_from_cv(cam_R, cam_T)
 
     print(f'Running on {video} ...')
     video_w_mpjpe = []
     video_wa_mpjpe = []
+    video_pa_mpjpe = []
+    video_accel = []
+    video_rte = []
+    eval_frame_ids = []
+    accel_frame_ids = []
+    pred_world_joints = np.full((len(imgfiles), 21, 3), np.nan, dtype=np.float32)
+    gt_world_joints = np.full((len(imgfiles), 21, 3), np.nan, dtype=np.float32)
 
     # --- Run VIMO on each track ---
     for k, idx in enumerate(tid):
@@ -230,38 +265,50 @@ for video in testset:
         for frame_ck, boxes_ck in zip(frame_chunks, boxes_chunks):
             print(f"from frame {frame_ck[0]} to {frame_ck[-1]}")
             img_ck = imgfiles[frame_ck]
+            pred_path = os.path.join(args.eval_log_dir, video, str(idx), f"{frame_ck[0]}.json")
+            if args.inference_stage and not args.gen_hand_mask and os.path.exists(pred_path):
+                print(f"skip existing prediction {pred_path}")
+                continue
+            loaded_prediction = False
             if not args.eval_stage:
-                
-                results = model.inference(img_ck, boxes_ck, img_focal=img_focal, img_center=img_center, do_flip=do_flip)
+                if args.gen_hand_mask and not args.inference_stage:
+                    pred_path = os.path.join(args.eval_log_dir, video, str(idx), f"{frame_ck[0]}.json")
+                    with open(pred_path, "r") as f:
+                        pred_dict = json.load(f)
+                    data_out = {k: torch.tensor(v) for k, v in pred_dict.items()}
+                    loaded_prediction = True
+                else:
+                    results = model.inference(img_ck, boxes_ck, img_focal=img_focal, img_center=img_center, do_flip=do_flip)
 
-                data_out = {
-                    "init_root_orient": results["pred_rotmat"][None, :, 0], # (B, T, 3, 3)
-                    "init_hand_pose": results["pred_rotmat"][None, :, 1:], # (B, T, 15, 3, 3)
-                    "init_trans": results["pred_trans"][None, :, 0],  # (B, T, 3)
-                    "init_betas": results["pred_shape"][None, :]  # (B, T, 10)
-                }
+                    data_out = {
+                        "init_root_orient": results["pred_rotmat"][None, :, 0], # (B, T, 3, 3)
+                        "init_hand_pose": results["pred_rotmat"][None, :, 1:], # (B, T, 15, 3, 3)
+                        "init_trans": results["pred_trans"][None, :, 0],  # (B, T, 3)
+                        "init_betas": results["pred_shape"][None, :]  # (B, T, 10)
+                    }
 
                 # flip left hand
-                init_root = rotation_matrix_to_angle_axis(data_out["init_root_orient"])
-                init_hand_pose = rotation_matrix_to_angle_axis(data_out["init_hand_pose"])
-                if do_flip:
-                    init_root[..., 1] *= -1
-                    init_root[..., 2] *= -1
-                    init_hand_pose[..., 1] *= -1
-                    init_hand_pose[..., 2] *= -1
-                data_out["init_root_orient"] = angle_axis_to_rotation_matrix(init_root)
-                data_out["init_hand_pose"] = angle_axis_to_rotation_matrix(init_hand_pose)
+                if not loaded_prediction:
+                    init_root = rotation_matrix_to_angle_axis(data_out["init_root_orient"])
+                    init_hand_pose = rotation_matrix_to_angle_axis(data_out["init_hand_pose"])
+                    if do_flip:
+                        init_root[..., 1] *= -1
+                        init_root[..., 2] *= -1
+                        init_hand_pose[..., 1] *= -1
+                        init_hand_pose[..., 2] *= -1
+                    data_out["init_root_orient"] = angle_axis_to_rotation_matrix(init_root)
+                    data_out["init_hand_pose"] = angle_axis_to_rotation_matrix(init_hand_pose)
 
             if args.inference_stage:
                 pred_dict={
                     k:v.tolist() for k, v in data_out.items()
                 }
-                pred_path = os.path.join(args.eval_log_dir, video, str(idx), f"{frame_ck[0]}.json")
                 if not os.path.exists(os.path.join(args.eval_log_dir, video, str(idx))):
                     os.makedirs(os.path.join(args.eval_log_dir, video, str(idx)))
                 with open(pred_path, "w") as f:
                     json.dump(pred_dict, f, indent=1)
-                continue
+                if not args.gen_hand_mask:
+                    continue
 
             if args.eval_stage:
                 pred_path = os.path.join(args.eval_log_dir, video, str(idx), f"{frame_ck[0]}.json")
@@ -281,28 +328,19 @@ for video in testset:
                 else: # right
                     outputs = run_mano(data_out["init_trans"], data_out["init_root_orient"], data_out["init_hand_pose"], betas=data_out["init_betas"])
                 
-                vertices = outputs["vertices"][0].cpu()  # (T, N, 3)
-                for img_i, _ in enumerate(img_ck):
-                    if do_flip:
-                        faces = torch.from_numpy(faces_left).cuda()
-                    else:
-                        faces = torch.from_numpy(faces_right).cuda()
-                    cam_R = torch.eye(3).unsqueeze(0).cuda()
-                    cam_T = torch.zeros(1, 3).cuda()
-                    cameras, lights = renderer.create_camera_from_cv(cam_R, cam_T)
-                    verts_color = torch.tensor([0, 0, 255, 255]) / 255
-                    vertices_i = vertices[[img_i]]
-                    rend, mask = renderer.render_multiple(vertices_i.unsqueeze(0).cuda(), faces, verts_color.unsqueeze(0).cuda(), cameras, lights)
-
-                    # image = Image.open(img_ck[img_i]).convert("RGB")
-                    # image = np.array(image)
-                    # mask_rgb = np.zeros_like(image)
-                    # # mask_ = np.expand_dims(mask, axis=-1) 
-                    # mask_rgb[mask>0] = np.array([255, 0, 0])
-                    # overlay = (image * (1 - 0.5) + mask_rgb * 0.5).astype(np.uint8)
-                    # Image.fromarray(overlay).save('debug.png')
-                    
-                    model_masks[frame_ck[img_i]] += mask
+                vertices = outputs["vertices"][0]  # (T, N, 3)
+                mask_faces = faces_left_cuda if do_flip else faces_right_cuda
+                mask_batch_size = 8
+                for mask_start in range(0, len(img_ck), mask_batch_size):
+                    mask_end = min(mask_start + mask_batch_size, len(img_ck))
+                    masks = renderer.render_silhouettes_batch(
+                        vertices[mask_start:mask_end].cuda(),
+                        mask_faces,
+                        mask_cameras,
+                        mask_lights,
+                    )
+                    for mask_offset, mask in enumerate(masks):
+                        model_masks[frame_ck[mask_start + mask_offset]] += mask
 
                 continue
 
@@ -333,6 +371,8 @@ for video in testset:
             target_glob_r = run_mano(gt_trans_r, gt_rot_r, gt_pose_r, betas=gt_betas_r)
             target_j3d_glob = {}
             target_j3d_glob['right'] = target_glob_r['joints'][0] # T, 21, 3 
+            pred_world_joints[frame_ck] = pred_j3d_glob['right'].detach().cpu().numpy()
+            gt_world_joints[frame_ck] = target_j3d_glob['right'].detach().cpu().numpy()
 
             chunk_length = 100
             w_mpjpe, wa_mpjpe = [], []
@@ -373,9 +413,14 @@ for video in testset:
             accumulator['wa_mpjpe'].append(wa_mpjpe)
             video_w_mpjpe.append(w_mpjpe)
             video_wa_mpjpe.append(wa_mpjpe)
+            video_pa_mpjpe.append(pa_mpjpe)
+            video_accel.append(accel)
+            eval_frame_ids.append(frame_ck)
+            accel_frame_ids.append(frame_ck[2:-2])
 
             rte = compute_rte(gt_trans_r.squeeze(0), data_world["init_trans"].squeeze(0)) * 1e2
             accumulator['RTE'].append(rte)
+            video_rte.append(rte)
             print(rte.mean())
 
     if args.gen_hand_mask:
@@ -388,14 +433,80 @@ for video in testset:
         masks_ = np.array(masks_, dtype=object)
         np.save(f'{seq_folder}/model_masks.npy', masks_)
     
-    if not args.inference_stage:
-        video_log = f"{video} {np.concatenate(video_w_mpjpe).mean()} {np.concatenate(video_wa_mpjpe).mean()}"
+    if not args.inference_stage and not args.gen_hand_mask:
+        frame_ids = np.concatenate(eval_frame_ids)
+        w_values = np.concatenate(video_w_mpjpe)
+        wa_values = np.concatenate(video_wa_mpjpe)
+        pa_values = np.concatenate(video_pa_mpjpe)
+        accel_ids = np.concatenate(accel_frame_ids)
+        accel_values = np.concatenate(video_accel)
+        rte_values = np.concatenate(video_rte)
+        result_dir = os.path.join(args.eval_log_dir, video)
+        os.makedirs(result_dir, exist_ok=True)
+        np.savez(
+            os.path.join(result_dir, 'evaluation_details.npz'),
+            frame_ids=frame_ids,
+            w_mpjpe_mm=w_values,
+            wa_mpjpe_mm=wa_values,
+            pa_mpjpe_mm=pa_values,
+            accel_frame_ids=accel_ids,
+            accel_m_s2=accel_values,
+            rte_percent=rte_values,
+            pred_world_joints_m=pred_world_joints,
+            gt_world_joints_m=gt_world_joints,
+        )
+        summary = {
+            'video': video,
+            'total_frames': int(len(imgfiles)),
+            'evaluated_right_hand_frames': int(len(frame_ids)),
+            'w_mpjpe_mm': float(w_values.mean()),
+            'wa_mpjpe_mm': float(wa_values.mean()),
+            'pa_mpjpe_mm': float(pa_values.mean()),
+            'accel_m_s2': float(accel_values.mean()),
+            'rte_percent': float(rte_values.mean()),
+        }
+        with open(os.path.join(result_dir, 'evaluation_summary.json'), 'w') as f:
+            json.dump(summary, f, indent=2)
+
+        fig, axes = plt.subplots(3, 1, figsize=(13, 10), sharex=True)
+        axes[0].plot(frame_ids, w_values, label='W-MPJPE', linewidth=0.8)
+        axes[0].plot(frame_ids, wa_values, label='WA-MPJPE', linewidth=0.8)
+        axes[0].plot(frame_ids, pa_values, label='PA-MPJPE', linewidth=0.8)
+        axes[0].set_ylabel('Joint error (mm)')
+        axes[0].legend()
+        axes[0].grid(alpha=0.25)
+        axes[1].plot(accel_ids, accel_values, color='tab:orange', linewidth=0.8)
+        axes[1].set_ylabel('Accel. error (m/s²)')
+        axes[1].grid(alpha=0.25)
+        axes[2].plot(frame_ids, rte_values, color='tab:green', linewidth=0.8)
+        axes[2].set_ylabel('RTE (%)')
+        axes[2].set_xlabel('Frame')
+        axes[2].grid(alpha=0.25)
+        fig.suptitle(f'HaWoR HOT3D evaluation: {video}')
+        fig.tight_layout()
+        fig.savefig(os.path.join(result_dir, 'metrics_over_time.png'), dpi=160)
+        plt.close(fig)
+
+        fig = plt.figure(figsize=(10, 8))
+        ax = fig.add_subplot(111, projection='3d')
+        ax.plot(*gt_world_joints[:, 0].T, label='HOT3D GT wrist', linewidth=1.2)
+        ax.plot(*pred_world_joints[:, 0].T, label='HaWoR wrist', linewidth=1.0)
+        ax.set_xlabel('X (m)')
+        ax.set_ylabel('Y (m)')
+        ax.set_zlabel('Z (m)')
+        ax.set_title(f'Right-hand world trajectory: {video}')
+        ax.legend()
+        fig.tight_layout()
+        fig.savefig(os.path.join(result_dir, 'world_trajectory.png'), dpi=160)
+        plt.close(fig)
+
+        video_log = f"{video} {w_values.mean()} {wa_values.mean()}"
         print(video_log)
         eval_log.write(video_log + "\n")
         video_w_mpjpe = []
         video_wa_mpjpe = []
 
-if not args.inference_stage:
+if not args.inference_stage and not args.gen_hand_mask:
     for k, v in accumulator.items():
         accumulator[k] = np.concatenate(v).mean()
 
@@ -405,6 +516,50 @@ if not args.inference_stage:
     print(log_str)
     eval_log.write(log_str + "\n")
     eval_log.close()
+
+    per_video = []
+    for video in testset:
+        with open(os.path.join(args.eval_log_dir, video, 'evaluation_summary.json'), 'r') as f:
+            per_video.append(json.load(f))
+    aggregate = {
+        'num_videos': len(testset),
+        'total_frames': sum(item['total_frames'] for item in per_video),
+        'evaluated_right_hand_frames': sum(
+            item['evaluated_right_hand_frames'] for item in per_video),
+        'w_mpjpe_mm': float(accumulator['w_mpjpe']),
+        'wa_mpjpe_mm': float(accumulator['wa_mpjpe']),
+        'pa_mpjpe_mm': float(accumulator['pa_mpjpe']),
+        'accel_m_s2': float(accumulator['accel']),
+        'rte_percent': float(accumulator['RTE']),
+    }
+    summary_all = {'aggregate': aggregate, 'videos': per_video}
+    summary_all_path = os.path.join(
+        args.eval_log_dir, f'evaluation_summary_{len(testset)}videos.json')
+    with open(summary_all_path, 'w') as f:
+        json.dump(summary_all, f, indent=2)
+
+    metric_specs = [
+        ('w_mpjpe_mm', 'W-MPJPE (mm)'),
+        ('wa_mpjpe_mm', 'WA-MPJPE (mm)'),
+        ('pa_mpjpe_mm', 'PA-MPJPE (mm)'),
+        ('accel_m_s2', 'Acceleration error (m/s²)'),
+        ('rte_percent', 'RTE (%)'),
+    ]
+    labels = [item['video'] for item in per_video]
+    fig, axes = plt.subplots(len(metric_specs), 1, figsize=(14, 15), sharex=True)
+    for ax, (key, ylabel) in zip(axes, metric_specs):
+        ax.bar(np.arange(len(per_video)), [item[key] for item in per_video])
+        ax.axhline(aggregate[key], color='tab:red', linestyle='--', linewidth=1,
+                   label=f"aggregate: {aggregate[key]:.2f}")
+        ax.set_ylabel(ylabel)
+        ax.grid(axis='y', alpha=0.25)
+        ax.legend(loc='upper right')
+    axes[-1].set_xticks(np.arange(len(per_video)), labels, rotation=30, ha='right')
+    fig.suptitle(f'HaWoR HOT3D evaluation across {len(testset)} videos')
+    fig.tight_layout()
+    fig.savefig(os.path.join(
+        args.eval_log_dir, f'metrics_{len(testset)}videos.png'), dpi=160)
+    plt.close(fig)
 
         
 

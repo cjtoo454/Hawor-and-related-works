@@ -1,0 +1,87 @@
+{
+  "common_matched_reference_events": 32,
+  "filter_minus_raw_onset_mean_ms": 67.65517781250024,
+  "filter_minus_raw_onset_median_ms": 66.65499049999113,
+  "per_video": [
+    {
+      "sequence": "P0001_a68492d5",
+      "raw_tp": 0,
+      "filtered_tp": 0,
+      "raw_fp": 9,
+      "filtered_fp": 9,
+      "common_matched": 0
+    },
+    {
+      "sequence": "P0001_9b6feab7",
+      "raw_tp": 9,
+      "filtered_tp": 6,
+      "raw_fp": 21,
+      "filtered_fp": 18,
+      "common_matched": 6
+    },
+    {
+      "sequence": "P0014_8254f925",
+      "raw_tp": 1,
+      "filtered_tp": 2,
+      "raw_fp": 17,
+      "filtered_fp": 12,
+      "common_matched": 1
+    },
+    {
+      "sequence": "P0011_76ea6d47",
+      "raw_tp": 2,
+      "filtered_tp": 2,
+      "raw_fp": 5,
+      "filtered_fp": 5,
+      "common_matched": 2
+    },
+    {
+      "sequence": "P0014_84ea2dcc",
+      "raw_tp": 3,
+      "filtered_tp": 3,
+      "raw_fp": 22,
+      "filtered_fp": 15,
+      "common_matched": 3
+    },
+    {
+      "sequence": "P0001_8d136980",
+      "raw_tp": 10,
+      "filtered_tp": 10,
+      "raw_fp": 13,
+      "filtered_fp": 7,
+      "common_matched": 10
+    },
+    {
+      "sequence": "P0012_476bae57",
+      "raw_tp": 2,
+      "filtered_tp": 1,
+      "raw_fp": 20,
+      "filtered_fp": 14,
+      "common_matched": 1
+    },
+    {
+      "sequence": "P0012_130a66e1",
+      "raw_tp": 3,
+      "filtered_tp": 3,
+      "raw_fp": 5,
+      "filtered_fp": 3,
+      "common_matched": 3
+    },
+    {
+      "sequence": "P0014_24cb3bf0",
+      "raw_tp": 1,
+      "filtered_tp": 0,
+      "raw_fp": 3,
+      "filtered_fp": 4,
+      "common_matched": 0
+    },
+    {
+      "sequence": "P0010_1c9fe708",
+      "raw_tp": 6,
+      "filtered_tp": 7,
+      "raw_fp": 27,
+      "filtered_fp": 24,
+      "common_matched": 6
+    }
+  ]
+}

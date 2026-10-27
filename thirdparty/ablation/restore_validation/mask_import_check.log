@@ -1,0 +1,18 @@
+usage: eval_hawor_hot3d.py [-h] [--checkpoint CHECKPOINT]
+                           [--video_root VIDEO_ROOT] [--set_file SET_FILE]
+                           [--inference_stage] [--gen_hand_mask]
+                           [--eval_stage] [--skip_existing_eval] [--subset]
+                           [--eval_log_dir EVAL_LOG_DIR]
+
+options:
+  -h, --help            show this help message and exit
+  --checkpoint CHECKPOINT
+  --video_root VIDEO_ROOT
+  --set_file SET_FILE
+  --inference_stage
+  --gen_hand_mask
+  --eval_stage
+  --skip_existing_eval  Reuse complete per-video evaluation artifacts when
+                        present
+  --subset
+  --eval_log_dir EVAL_LOG_DIR

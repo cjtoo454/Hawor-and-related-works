@@ -1,0 +1,64 @@
+{
+  "time_utc": "2026-10-20T10:52:33.940744+00:00",
+  "checkpoint_inspection": "Static pickle opcode string inspection, no object deserialization; markers are inventory evidence, not strict compatibility validation.",
+  "checkpoints": [
+    {
+      "path": "thirdparty/try/runs/hot3d_train100_full_dualloop/full_model/checkpoints/dual_loop.best.pt",
+      "bytes": 8313105,
+      "v2_architecture_marker_present": false,
+      "stage_markers": []
+    },
+    {
+      "path": "thirdparty/try/runs/hot3d_train100_full_dualloop/full_model/checkpoints/dual_loop.pt",
+      "bytes": 8312267,
+      "v2_architecture_marker_present": false,
+      "stage_markers": []
+    },
+    {
+      "path": "thirdparty/try/runs/hot3d_train100_hawor_dualloop_cv_prior_20261015/before_4gpu_085551/best.pt",
+      "bytes": 4224361,
+      "v2_architecture_marker_present": false,
+      "stage_markers": []
+    },
+    {
+      "path": "thirdparty/try/runs/hot3d_train100_hawor_dualloop_cv_prior_20261015/before_4gpu_085551/last.pt",
+      "bytes": 4224361,
+      "v2_architecture_marker_present": false,
+      "stage_markers": []
+    },
+    {
+      "path": "thirdparty/try/runs/hot3d_train100_hawor_dualloop_cv_prior_20261015/checkpoints/best.pt",
+      "bytes": 4224361,
+      "v2_architecture_marker_present": false,
+      "stage_markers": []
+    },
+    {
+      "path": "thirdparty/try/runs/hot3d_train100_hawor_dualloop_cv_prior_20261015/checkpoints/last.pt",
+      "bytes": 4225443,
+      "v2_architecture_marker_present": false,
+      "stage_markers": []
+    },
+    {
+      "path": "thirdparty/try/runs/hot3d_train100_prior_20261015/checkpoints/best.pt",
+      "bytes": 4080811,
+      "v2_architecture_marker_present": false,
+      "stage_markers": []
+    },
+    {
+      "path": "thirdparty/try/runs/hot3d_train100_prior_20261015/checkpoints/last.pt",
+      "bytes": 4080811,
+      "v2_architecture_marker_present": false,
+      "stage_markers": []
+    }
+  ],
+  "validation_root_exists": false,
+  "frozen_protocol": "diagnostics/pinch_hawor_vs_ema_10videos_20261018_final/protocol_frozen.json",
+  "frozen_protocol_sha256": "f62cba1337a0af9acf2e07ab878eaa6e1356539e522e61d7556b724d02e482fd",
+  "status": "missing_v2_checkpoint_and_original_validation_inputs",
+  "formal_table_row": {
+    "Variant": "TWM only",
+    "W-MPJPE_mm": null,
+    "Onset_MAE_ms": null
+  },
+  "note": "Archived evaluation_details.npz supplies XYZ joints only, not the full MANO rotations needed for v2 TWM input. No formal experiment was run."
+}

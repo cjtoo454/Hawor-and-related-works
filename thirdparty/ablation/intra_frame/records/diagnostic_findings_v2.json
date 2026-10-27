@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-21T10:02:05.928289+00:00",
+  "scope": "diagnosis of the original failed v1 model; all new labelled probes use calibration only",
+  "findings": [
+    {
+      "hypothesis": "crop or coordinate mapping gross error",
+      "evidence": "synthetic pixel-coordinate ramps through actual crop agree with affine within 1.6e-5 pixel; no off-by-one label mapping found in source review",
+      "conclusion": "no gross crop bug found; small half-pixel normalized-grid discrepancy remains <=0.0048 and was not changed in v2",
+      "source": "runs/geometry_audit_v2/summary.json"
+    },
+    {
+      "hypothesis": "trained visual branch is simply worse at single-frame restoration",
+      "evidence": "160 fixed calibration frames: TWM one-round unaligned joint48.14mm, old visual1round43.07mm, old visual2round43.01mm",
+      "conclusion": "not supported; visual improves the single-frame objective, while second round adds little joint benefit",
+      "source": "runs/diagnose_feedback_v2/feedback_160frames.json"
+    },
+    {
+      "hypothesis": "iterated TWM residual is the sole main cause",
+      "evidence": "Full20 calibration videos,39310 per-segment eligible frames: raw W29.381,TWM once29.191,TWM twice29.439mm",
+      "conclusion": "Recurrence contributes about0.248mm here; insufficient to explain original14.086mm test deterioration",
+      "source": "runs/diagnose_numeric_v2/diagnostic.json"
+    },
+    {
+      "hypothesis": "visual updates are overly large for trajectory/metric robustness",
+      "evidence": "original prediction-only root updates mean1.10mm TWM vs11.07mm intra; control bounded transplant reduces20frame root displacement18.8mm->4.53mm but increases unaligned joint loss",
+      "conclusion": "updates are larger, but clipping old weights alone does not prove improved metric; train bounded model with sequence objectives",
+      "source": "runs/geometry_audit_v2/prediction_update_magnitude.json"
+    },
+    {
+      "hypothesis": "objective and model selection mismatch",
+      "evidence": "oldloss absolute single-frame MPJPE+NLL; test uses first2frame similarity alignment in100frame segments; best checkpoint chosen on20middle frames",
+      "conclusion": "Supported mismatch. Superseded v2 pilot stopped at49 steps without test. Protocol3 retains camera supervision and adds canonical-world trajectory supervision plus full-video event calibration.",
+      "source": "train_feedback_v2.py"
+    },
+    {
+      "hypothesis": "camera-relative supervision differs from formal world target",
+      "evidence": "5120 fixed calibration frames,3280 scored: perfect camera-relative labels have9.938mm first2-aligned world error; independently regenerated raw-SLAM labels agree within0.000133mm",
+      "conclusion": "Add label-only A^-1 G S^-1 J_S world supervision; retain camera-relative objective; no GT added to model inputs",
+      "source": "runs/world_reference_audit_v2/full_calibration_20seq_5120frames.json"
+    },
+    {
+      "hypothesis": "event calibration coverage and boundary mismatch",
+      "evidence": "Original40windows contain8 refs and baseline only1match; segment-split reference omitted6events. Correct full-video reference224events,130mergedwindows,18468frames; exact formal prediction mask39330frames",
+      "conclusion": "Use full224reference trace, expanded fixed prediction coverage, global formal mask, baseline>=10matches and nondegrading F1/recall for selection",
+      "source": "runs/calibration_events_v3/calibration_manifest.json"
+    }
+  ],
+  "unresolved": [
+    "whether repaired training improves full calibration W/Onset/F1",
+    "whether calibration-selected model generalizes to the previously observed frozen test"
+  ],
+  "success_claimed": false,
+  "updated_utc": "2026-10-21T10:56:14.133283+00:00"
+}

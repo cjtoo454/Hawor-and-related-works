@@ -1,0 +1,187 @@
+{
+  "method": "HaWoR",
+  "reference_events": [
+    {
+      "start": 644,
+      "stop": 650,
+      "onset_sec": 21.500046017,
+      "offset_sec": 21.733412312
+    },
+    {
+      "start": 1147,
+      "stop": 1150,
+      "onset_sec": 38.266704457,
+      "offset_sec": 38.4000526
+    },
+    {
+      "start": 2815,
+      "stop": 2829,
+      "onset_sec": 93.933449108,
+      "offset_sec": 94.433396604
+    },
+    {
+      "start": 2982,
+      "stop": 2990,
+      "onset_sec": 99.500052049,
+      "offset_sec": 99.802152221
+    },
+    {
+      "start": 3218,
+      "stop": 3230,
+      "onset_sec": 107.366709091,
+      "offset_sec": 107.800051178
+    }
+  ],
+  "predicted_events": [
+    {
+      "start": 406,
+      "stop": 408,
+      "onset_sec": 13.53339792,
+      "offset_sec": 13.633384056
+    },
+    {
+      "start": 421,
+      "stop": 438,
+      "onset_sec": 14.033383899,
+      "offset_sec": 14.633382116
+    },
+    {
+      "start": 450,
+      "stop": 456,
+      "onset_sec": 15.033384446,
+      "offset_sec": 15.266712966
+    },
+    {
+      "start": 469,
+      "stop": 474,
+      "onset_sec": 15.666776462,
+      "offset_sec": 15.866733649
+    },
+    {
+      "start": 518,
+      "stop": 521,
+      "onset_sec": 17.300065699,
+      "offset_sec": 17.433374761
+    },
+    {
+      "start": 535,
+      "stop": 540,
+      "onset_sec": 17.866720644,
+      "offset_sec": 18.066721854
+    },
+    {
+      "start": 572,
+      "stop": 575,
+      "onset_sec": 19.100057158,
+      "offset_sec": 19.233404068
+    },
+    {
+      "start": 640,
+      "stop": 659,
+      "onset_sec": 21.366705204,
+      "offset_sec": 22.033379827
+    },
+    {
+      "start": 1112,
+      "stop": 1119,
+      "onset_sec": 37.100058155,
+      "offset_sec": 37.366718117
+    },
+    {
+      "start": 1326,
+      "stop": 1330,
+      "onset_sec": 44.233375396,
+      "offset_sec": 44.40004214
+    },
+    {
+      "start": 1726,
+      "stop": 1729,
+      "onset_sec": 57.633393771,
+      "offset_sec": 57.766703881
+    },
+    {
+      "start": 1735,
+      "stop": 1739,
+      "onset_sec": 57.933381628,
+      "offset_sec": 58.100050275
+    },
+    {
+      "start": 1741,
+      "stop": 1768,
+      "onset_sec": 58.13338148,
+      "offset_sec": 59.066730201
+    },
+    {
+      "start": 1775,
+      "stop": 1794,
+      "onset_sec": 59.266728348,
+      "offset_sec": 59.933393249
+    },
+    {
+      "start": 2801,
+      "stop": 2833,
+      "onset_sec": 93.466745216,
+      "offset_sec": 94.566715332
+    },
+    {
+      "start": 2838,
+      "stop": 2879,
+      "onset_sec": 94.700056598,
+      "offset_sec": 96.100065481
+    },
+    {
+      "start": 2975,
+      "stop": 3012,
+      "onset_sec": 99.2667202,
+      "offset_sec": 100.533386711
+    },
+    {
+      "start": 3988,
+      "stop": 4065,
+      "onset_sec": 133.033388424,
+      "offset_sec": 135.633399881
+    }
+  ],
+  "tp": 1,
+  "fp": 17,
+  "fn": 4,
+  "precision": 0.05555555555555555,
+  "recall": 0.2,
+  "onset_mae_ms": 133.34081300000022,
+  "onset_bias_ms": -133.34081300000022,
+  "short_reference_events": 3,
+  "short_matched_events": 1,
+  "short_event_recall": 0.3333333333333333,
+  "matches": [
+    {
+      "reference_index": 0,
+      "prediction_index": 7,
+      "onset_error_ms": -133.34081300000022
+    }
+  ],
+  "unmatched_reference_indices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unmatched_prediction_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ]
+}

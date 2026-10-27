@@ -1,0 +1,1 @@
+{"bbox_source": "detected_tracks with previous-only fill", "calibration_frames": 62066, "calibration_sequences": 20, "coordinate_frame": "per-interval local raw HaWoR SLAM world", "focal_entries_filled_from_sensor_calibration": 5420, "test_sequences_excluded": 10, "train_frames": 121565, "train_gt_valid": 120346, "train_sequences": 33, "train_visual_valid": 103287}

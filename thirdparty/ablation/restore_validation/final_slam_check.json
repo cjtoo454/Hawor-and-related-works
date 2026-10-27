@@ -1,0 +1,220 @@
+{
+  "all_43_passed": true,
+  "archives": [
+    {
+      "path": "datasets/hot3d_valset_export/P0001_a68492d5/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.125457525253296
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_a68492d5/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.011339545249939
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_a68492d5/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.9712925553321838
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_a68492d5/preprocess/SLAM/hawor_slam_w_scale_3000_3714.npz",
+      "trajectory_frames": 714,
+      "scale": 0.6816343069076538
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_9b6feab7/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.063454031944275
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_9b6feab7/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.012870192527771
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_9b6feab7/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.9856253266334534
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_9b6feab7/preprocess/SLAM/hawor_slam_w_scale_3000_3776.npz",
+      "trajectory_frames": 776,
+      "scale": 1.0222110152244568
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_8254f925/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.8130965232849121
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_8254f925/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.7491044700145721
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_8254f925/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.808138906955719
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_8254f925/preprocess/SLAM/hawor_slam_w_scale_3000_4000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.8239707946777344
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_8254f925/preprocess/SLAM/hawor_slam_w_scale_4000_4102.npz",
+      "trajectory_frames": 102,
+      "scale": 0.6759335398674011
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0011_76ea6d47/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.1863864660263062
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0011_76ea6d47/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.064276933670044
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0011_76ea6d47/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.1259809732437134
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0011_76ea6d47/preprocess/SLAM/hawor_slam_w_scale_3000_3874.npz",
+      "trajectory_frames": 874,
+      "scale": 1.130075454711914
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_84ea2dcc/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.8052632510662079
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_84ea2dcc/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.816398024559021
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_84ea2dcc/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.8473727107048035
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_84ea2dcc/preprocess/SLAM/hawor_slam_w_scale_3000_4000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.7399851381778717
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_84ea2dcc/preprocess/SLAM/hawor_slam_w_scale_4000_4439.npz",
+      "trajectory_frames": 439,
+      "scale": 0.7574459314346313
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_8d136980/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.0821833610534668
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_8d136980/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.9808204174041748
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_8d136980/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.081642508506775
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0001_8d136980/preprocess/SLAM/hawor_slam_w_scale_3000_3797.npz",
+      "trajectory_frames": 797,
+      "scale": 1.1439450979232788
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0012_476bae57/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.7712408602237701
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0012_476bae57/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.7854402363300323
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0012_476bae57/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.7705757021903992
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0012_476bae57/preprocess/SLAM/hawor_slam_w_scale_3000_3549.npz",
+      "trajectory_frames": 549,
+      "scale": 0.7570973038673401
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0012_130a66e1/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.8529317378997803
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0012_130a66e1/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.7235869467258453
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0012_130a66e1/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.6602087020874023
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0012_130a66e1/preprocess/SLAM/hawor_slam_w_scale_3000_3665.npz",
+      "trajectory_frames": 665,
+      "scale": 0.7487543821334839
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_24cb3bf0/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.8136095702648163
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_24cb3bf0/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 1.0262645483016968
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_24cb3bf0/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.8735579252243042
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_24cb3bf0/preprocess/SLAM/hawor_slam_w_scale_3000_4000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.9339439868927002
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0014_24cb3bf0/preprocess/SLAM/hawor_slam_w_scale_4000_4064.npz",
+      "trajectory_frames": 64,
+      "scale": 0.9665424227714539
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0010_1c9fe708/preprocess/SLAM/hawor_slam_w_scale_0_1000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.9186155200004578
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0010_1c9fe708/preprocess/SLAM/hawor_slam_w_scale_1000_2000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.793918639421463
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0010_1c9fe708/preprocess/SLAM/hawor_slam_w_scale_2000_3000.npz",
+      "trajectory_frames": 1000,
+      "scale": 0.8361364305019379
+    },
+    {
+      "path": "datasets/hot3d_valset_export/P0010_1c9fe708/preprocess/SLAM/hawor_slam_w_scale_3000_3602.npz",
+      "trajectory_frames": 602,
+      "scale": 0.8958474397659302
+    }
+  ]
+}

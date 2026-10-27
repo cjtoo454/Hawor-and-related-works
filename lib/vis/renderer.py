@@ -313,6 +313,43 @@ class Renderer():
         image = (results[0, ..., :3].cpu().numpy() * 255).astype(np.uint8)
         mask = results[0, ..., -1].cpu().numpy() > 0
         return image, mask
+
+    def render_silhouettes_batch(self, verts, faces, cameras, lights):
+        """Rasterize independent meshes as a batch and return binary masks."""
+        batch_size = verts.shape[0]
+        colors = torch.ones(
+            (batch_size, 4), device=verts.device, dtype=verts.dtype
+        )
+        verts, faces, colors = prep_shared_geometry(verts, faces, colors)
+        mesh = Meshes(
+            verts=list(torch.unbind(verts, dim=0)),
+            faces=list(torch.unbind(faces, dim=0)),
+            textures=TexturesVertex(verts_features=colors),
+        )
+        batch_cameras = PerspectiveCameras(
+            device=self.device,
+            focal_length=cameras.focal_length.expand(batch_size, -1),
+            principal_point=cameras.principal_point.expand(batch_size, -1),
+            R=cameras.R.expand(batch_size, -1, -1),
+            T=cameras.T.expand(batch_size, -1),
+            image_size=cameras.image_size.expand(batch_size, -1),
+            in_ndc=cameras.in_ndc(),
+        )
+        batch_lights = PointLights(
+            device=self.device,
+            ambient_color=lights.ambient_color.expand(batch_size, -1),
+            diffuse_color=lights.diffuse_color.expand(batch_size, -1),
+            specular_color=lights.specular_color.expand(batch_size, -1),
+            location=lights.location.expand(batch_size, -1),
+        )
+        materials = Materials(device=self.device, shininess=0)
+        results = self.renderer(
+            mesh,
+            cameras=batch_cameras,
+            lights=batch_lights,
+            materials=materials,
+        )
+        return results[..., -1].detach().cpu().numpy() > 0
     
     
 def prep_shared_geometry(verts, faces, colors):
